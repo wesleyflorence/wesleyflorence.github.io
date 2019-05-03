@@ -1,8 +1,50 @@
-h1 {
-    font-family: 'Roboto Mono', monospace;
+@media (min-width:320px)  {
+    /* smartphone width */
+}
+
+.responsive {
+    /* width: 100%; */
+    max-width: 100px;
+    height: auto;
 }
 
 body {
+    padding-top: 12%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: auto;
+    text-align: center;
     font-family: 'Roboto Mono', monospace;
-    background-color: #f4f4f4;
+    color: #0e0e0e;
+    background-color: #fafafa;
+}
+
+header {
+    align-items:center;
+    justify-content:space-between;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.social-links {
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+
+a.github:hover {
+    /* color: #6e5494; */
+    color: #6cc644;
+}
+
+a.twitter:hover {
+    color: #1da1f2;
+}
+
+a.instagram:hover {
+    color: #E1306C;
+}
+
+a.linkedin:hover {
+    color: #0077B5;
 }
