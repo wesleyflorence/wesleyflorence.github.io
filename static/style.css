@@ -27,12 +27,6 @@ header {
     font-size: x-large;
 }
 
-/* .social {
-    display: flex;
-    flex-direction: row
-} */
-
-
 a.github:hover {
     /* color: #6e5494; */
     color: #6cc644;
@@ -68,20 +62,4 @@ a.linkedin:hover {
         flex: 1;
         font-size: 60px;
     }
-
-    /* .github {
-        order: 1
-    }
-
-    .twitter {
-
-    }
-
-    .instagram {
-
-    }
-
-    .linkedin {
-
-    } */
 }
