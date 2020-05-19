@@ -1,34 +1,69 @@
 body {
-    padding-top: 12%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: auto;
-    text-align: center;
+    /* padding-top: 50%; */
+    /* padding-left: 22%; */
+    /* padding-right: 20%; */
+    /* margin: auto; */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    text-align: left;
     font-family: 'Open Sans', sans-serif;
     color: #0e0e0e;
     background-color: #fafafa;
 }
 
 header {
-    font-family: 'Merriweather', serif;
+    font-family: sans-serif;
     align-items:center;
     justify-content:space-between;
-    /* font-family: 'Roboto Mono', monospace; */
 }
 
-.bio-section {
-    margin-bottom: 1.5em;
+h3 {
+    color: #ffffff;
+}
+
+.grid {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100% 20%;
+}
+
+.bio-section {  
+    align-self: center;
+    grid-column: 1;
+    grid-row: 1 / span 1;
+    font-size: medium;
+    /* margin-bottom: -1.5em; */
+}
+
+.bio {
+    padding-top: 5%;
+    padding-left: 22%;
+    padding-right: 5%;
+}
+
+.social-section {
+    background-color: #0e0e0e;
+    grid-column: 1;
+    grid-row: 2 / span 1;
+}
+
+.social {
+    text-align: left;
+    padding-left: 1rem;
 }
 
 .social-links {
-    /* flex: 1; */
-    color: #0e0e0e;
+    color: #ffffff;
     text-decoration: none;
-    font-size: x-large;
+    font-size: medium;
+    padding-right: 0.5rem;
 }
 
 a.github:hover {
-    /* color: #6e5494; */
     color: #6cc644;
 }
 
@@ -44,22 +79,18 @@ a.linkedin:hover {
     color: #0077B5;
 }
 
-.column-1 {
-    display: inline
-}
-
-.column-2 {
-    display: inline
-}
-
 @media screen and (max-width:500px)  {
     /* smartphone width */
-    .social {
-        display: flex;
-        flex-direction: column;
-    }
-    .social-links {
-        flex: 1;
-        font-size: 60px;
-    }
+    /* .social { */
+    /*     display: flex; */
+    /*     flex-direction: column; */
+    /* } */
+    /* .social-links { */
+    /*     flex: 1; */
+    /*     font-size: 60px; */
+    /* } */
+
+    /* body { */
+    /*     padding-left: 10%; */
+    /* } */
 }
