@@ -1,0 +1,23 @@
+{
+  "name": "wesflorence-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleyflorence/wesflorence-website.git"
+  },
+  "keywords": [],
+  "author": "Wesley Florence",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesleyflorence/wesflorence-website/issues"
+  },
+  "homepage": "https://github.com/wesleyflorence/wesflorence-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
