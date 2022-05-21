@@ -2,9 +2,9 @@
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; box-sizing: border-box; vertical-align: baseline; } article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
 
 /* site styles */
-
 body {
   font-family: monospace, sans-serif;
+  background-color: #eae9e6;
 }
 
 .content {
@@ -15,10 +15,43 @@ body {
 
 h1 {
   padding-bottom: 1rem;
+  font-size: 2.8rem;
 }
 
 .by {
-  font-size: 0.6rem;
-  line-height: 0.8rem;
-  color: #555;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: #666;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #523856;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #116f63;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: #052420;
+    color: #d5d4cd;
+  }
+  .by {
+    color: #c0beb4;
+  }
+
+  a:link, a:visited {
+    color: #d5d4cd;
+  }
+
+  a:hover {
+    color: #7e6a81;
+  }
 }
