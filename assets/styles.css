@@ -8,19 +8,19 @@ body {
 }
 
 .content {
-  padding: 2.5rem;
+  padding: 5.2rem;
   max-width: 60rem;
   margin: 0 auto;
 }
 
 h1 {
-  padding-bottom: 1rem;
-  font-size: 2.8rem;
+  padding-bottom: 1.2rem;
+  font-size: 1.9rem;
 }
 
 .by {
-  font-size: 1.3rem;
-  line-height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.3rem;
   color: #666;
 }
 
@@ -40,18 +40,18 @@ a:active {
 
 @media screen and (prefers-color-scheme: dark) {
   body {
-    background-color: #052420;
-    color: #d5d4cd;
+    background-color: #000000;
+    color: #ffffff;
   }
   .by {
-    color: #c0beb4;
+    color: #ffffff;
   }
 
   a:link, a:visited {
-    color: #d5d4cd;
+    color: #ffffff;
   }
 
   a:hover {
-    color: #7e6a81;
+    color: #ff0064;
   }
 }
