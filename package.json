@@ -1,23 +1,27 @@
 {
   "name": "wesflorence-website",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wesleyflorence/wesflorence-website.git"
-  },
-  "keywords": [],
-  "author": "Wesley Florence",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wesleyflorence/wesflorence-website/issues"
-  },
-  "homepage": "https://github.com/wesleyflorence/wesflorence-website#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
-  }
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "autoprefixer": "^10.4.16",
+    "mdsvex": "^0.11.0",
+    "postcss": "^8.4.31",
+    "svelte": "^4.0.5",
+    "svelte-adapter-bun": "^0.5.0",
+    "svelte-check": "^3.4.3",
+    "tailwindcss": "^3.3.5",
+    "tslib": "^2.4.1",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.2"
+  },
+  "type": "module"
 }
