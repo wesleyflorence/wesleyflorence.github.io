@@ -7,7 +7,7 @@
 	<title>wesflorence :: blog</title>
 </svelte:head>
 
-<h1 class="text-6xl font-bold mb-2">Blog</h1>
+<h1 class="text-4xl font-bold mb-2">Blog</h1>
 
 <ul class="list-none text-zinc-400">
   {#each data.posts as post}
