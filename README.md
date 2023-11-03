@@ -1,13 +1,5 @@
 # wesflorence.com
 
----
-
-## Introduction
-
-Welcome to the repository for wesflorence.com, my personal website built with SvelteKit.
-
----
-
 ## Getting Started
 
 ### Prerequisites

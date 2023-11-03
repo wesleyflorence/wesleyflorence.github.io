@@ -10,7 +10,7 @@ interface Post {
   meta: PostMeta
 }
 
-interface PageData {
+interface BlogPageData {
   posts: Post[]
 }
 
@@ -23,4 +23,4 @@ export const load: PageLoad = async ({ fetch }) => {
   }
 }
 
-export type { PageData, Post, PostMeta };
+export type { BlogPageData, Post, PostMeta };

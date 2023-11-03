@@ -5,7 +5,9 @@
 <header>
   <nav class="text-sm font-mono text-zinc-400">
     <ul class="p-4 flex flex-col space-y-1">
-      {#each ['/', '/cancer', '/research', '/blog'] as route}
+      <!-- TODO: Add back routes once finished -->
+      <!-- {#each ['/', '/cancer', '/research', '/blog'] as route} -->
+      {#each ['/'] as route}
         <li class:active={$page.url.pathname === route} class="hover:text-zinc-200 flex items-center">
           <span class="mr-2 circle" />
           <a href={route}>{route.slice(1) || "home"}</a>

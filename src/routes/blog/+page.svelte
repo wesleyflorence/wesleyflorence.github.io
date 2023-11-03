@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { PageData } from './+page';
-  export let data: PageData;
+  import type { BlogPageData } from './+page';
+  export let data: BlogPageData;
 </script>
 
 <svelte:head>
