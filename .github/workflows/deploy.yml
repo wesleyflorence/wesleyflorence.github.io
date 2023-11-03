@@ -23,6 +23,7 @@ jobs:
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
+          bun run check
           bun run build
 
       - name: Upload Artifacts
