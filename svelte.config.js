@@ -30,7 +30,7 @@ const config = {
     paths: {
       // name of the repo for Github Pages deploy, remove if this changes
       // https://kit.svelte.dev/docs/adapter-static
-      base: process.argv.includes('dev') ? '' : 'wesflorence-website'
+      base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
     }
 	},
 };
