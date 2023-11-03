@@ -11,14 +11,14 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
         zsh = pkgs.zsh;
-        bun = pkgs.bun;
+        node = pkgs.nodejs_20;
         tailwindcss = pkgs.tailwindcss;
         flyctl = pkgs.flyctl;
       in
 
       {
         devShell = pkgs.mkShell {
-          buildInputs = [ bun tailwindcss flyctl zsh ];
+          buildInputs = [ node tailwindcss flyctl zsh ];
           SHELL = "${pkgs.zsh}/bin/zsh";
           shellHook = ''
             if [ -z "$IN_NIX_SHELL_ZSH_STARTED" ]; then
