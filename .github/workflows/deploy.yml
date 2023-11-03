@@ -11,18 +11,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install Bun
-        uses: oven-sh/setup-bun@v1
+      - name: Install Node.js
+        uses: actions/setup-node@v3
         with:
-          bun-version: latest
+          node-version: 18
+          cache: npm
 
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
-          bun install
-          bun run check
-          bun run build
+          npm install
+          npm run check
+          npm run build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v2
