@@ -9,16 +9,28 @@
     link: string;
   }
 
-  let books: Book[] = [];
+  let completedBooks: Book[] = [];
+  let readingBooks: Book[] = [];
 
   onMount(async () => {
-    const response = await fetch(
-      "https://raw.githubusercontent.com/wesleyflorence/library/main/books.json"
-    );
-    if (response.ok) {
-      books = await response.json();
-    } else {
-      console.error("Failed to fetch books");
+    const urls = [
+      "https://raw.githubusercontent.com/wesleyflorence/library/main/completed_books.json",
+      "https://raw.githubusercontent.com/wesleyflorence/library/main/reading_books.json",
+    ];
+
+    try {
+      const responses = await Promise.all(urls.map(url => fetch(url)));
+      [completedBooks, readingBooks] = await Promise.all(
+        responses.map(response => {
+          if (response.ok) {
+            return response.json();
+          } else {
+            throw new Error(`Failed to fetch: ${response.url}`);
+          }
+        })
+      );
+    } catch (error) {
+      console.error(error);
     }
   });
 </script>
@@ -33,20 +45,36 @@
     (here!)</a
   >, representing a snapshot of my journey. We are learning.
 </p>
-{#if books.length > 0}
-  <ul>
-    {#each books as book}
+
+<h2 class="text-lg font-bold text-zinc-400 mb-1">Currently Reading</h2>
+{#if readingBooks.length > 0}
+  <ul class="mb-2">
+    {#each readingBooks as book}
       <li class="font-mono text-sm">
-        <a href={book.link} target="_blank"
-          ><strong class="hover:text-rose-700">{book.name}</strong></a
-        >
+        <a href={book.link} target="_blank"><strong class="hover:text-rose-700">{book.name}</strong></a>
         :: {book.authors}
-        <br /><i class="text-rose-700 mx-7">{book.review || ""}</i>
         <br />
         <br />
       </li>
     {/each}
   </ul>
 {:else}
-  <p>No books found.</p>
+  <p>No books currently being read.</p>
+{/if}
+
+
+<h2 class="text-lg font-bold text-zinc-400 mb-1">Completed</h2>
+{#if completedBooks.length > 0}
+  <ul>
+    {#each completedBooks as book}
+      <li class="font-mono text-sm">
+        <a href={book.link} target="_blank"><strong class="hover:text-rose-700">{book.name}</strong></a>
+        :: {book.authors}
+        <br /><i class="text-rose-700 mx-7">{book.review || ""}</i>
+        <br />
+      </li>
+    {/each}
+  </ul>
+{:else}
+  <p>No completed books found.</p>
 {/if}
