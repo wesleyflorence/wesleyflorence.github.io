@@ -2,7 +2,7 @@
   <title>Wes Florence :: Research</title>
 </svelte:head>
 
-<h1 class="text-4xl font-bold mb-2">Research</h1>
+<h1 class="text-4xl font-bold">Research</h1>
 <p class="mb-5 font-mono">A repository for fragments of knowledge.</p>
 
 <ul class="list-disc">
