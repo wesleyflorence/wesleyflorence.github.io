@@ -114,7 +114,7 @@
 <h1 class="text-4xl font-bold">Cancer</h1>
 <p class="mb-5 font-mono">A dasboard for tracking health.</p>
 
-<div class="bg-zinc-900 shadow overflow-hidden sm:rounded-lg mb-10">
+<div class="bg-zinc-900 shadow overflow-hidden rounded-lg mb-10">
   <div class="px-4 py-5 sm:px-6">
     <h3 class="text-lg leading-6 font-medium">Summary</h3>
     <p class="mt-1 max-w-2xl text-sm text-zinc-400">
