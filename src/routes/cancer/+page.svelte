@@ -114,6 +114,32 @@
 <h1 class="text-4xl font-bold">Cancer</h1>
 <p class="mb-5 font-mono">A dasboard for tracking health.</p>
 
+<p class="mb-2">
+  In July, I sought medical attention from my primary care physician due to a
+  persistent, dry cough that seemed reflexive in nature. Over time, additional
+  symptoms emerged, including fatigue, vomiting, and severe facial swelling.
+  These were later understood to be related to a large chest tumor, which was
+  diagnosed as Hodgkin Lymphoma. The tumor was pressing against a <a
+    href="https://en.wikipedia.org/wiki/Phrenic_nerve"
+  class="text-rose-700">nerve</a
+  > in my chest, causing the cough and vomiting, and was also compressing my Superior
+  Vena Cava, complicating blood flow back to my heart. This compression made anesthesia
+  for a biopsy riskier than usual.
+</p>
+<p class="mb-2">
+  Treatment began with chemotherapy administered through IV, instead of the
+  standard port, due to the risks posed by my heart condition. So far,
+  chemotherapy side effects have been manageable, with fatigue and numbness in
+  my fingers being the most significant. My treatment plan is under review, with
+  a potential shift from ABVD to Pembro-GVD chemotherapy, prompted by the high
+  metabolic activity in my chest. However, there are encouraging indications
+  that the tumor size is reducing, showing positive signs of progress.
+</p>
+
+<p class="mb-8">
+  I've created this dashboard to mindfully keep track of my timeline. It is also useful to share with friends in family who might be curious about that status of my treatement. I will continue to update it when I have the energy and will.
+</p>
+
 <div class="bg-zinc-900 shadow overflow-hidden rounded-lg mb-10">
   <div class="px-4 py-5 sm:px-6">
     <h3 class="text-lg leading-6 font-medium">Summary</h3>
@@ -127,9 +153,16 @@
       <div
         class="bg-zinc-900 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
       >
-        <dt class="text-lg font-medium text-zinc-50">Diagnosis</dt>
+        <dt class="text-lg font-medium">Diagnosis</dt>
         <dd class="mt-1 text-sm text-zinc-300 sm:col-span-2 sm:mt-0">
-          Stage 2B Classic Hodgkin's Disease, Nodular Sclerosing type.
+          Stage 2B Classic <a
+            href="https://en.wikipedia.org/wiki/Hodgkin_lymphoma"
+            class="text-rose-700">Hodgkin's Disease</a
+          >, Nodular Sclerosing type with
+          <a
+            href="https://en.wikipedia.org/wiki/Superior_vena_cava"
+            class="text-rose-700">Superior Vena Cava</a
+          > compression.
         </dd>
       </div>
       <!-- Time Ordered Events & Findings -->
@@ -144,20 +177,24 @@
               mass via Chest X-Ray.
             </li>
             <li>
-              <strong class="text-zinc-500">07.25</strong> CT Chest confirms mass
+              <strong class="text-zinc-500">07.25</strong> CT scan confirms tumor
               extending into right chest, encasing SVC.
             </li>
             <li>
-              <strong class="text-zinc-500">08.02</strong> CT-guided biopsy by Swedish
-              IR revealing atypical lymphohistiocytic infiltrate.
+              <strong class="text-zinc-500">08.02</strong> CT-guided biopsy revealing
+              atypical lymphohistiocytic infiltrate.
             </li>
             <li>
               <strong class="text-zinc-500">08.10</strong> Initial PET scan reveals
               extensive disease with high metabolic activity.
             </li>
             <li>
-              <strong class="text-zinc-500">08.14</strong> ECHO showing LVEF 65-70%
-              with SVC collapse.
+              <strong class="text-zinc-500">08.14</strong> Echocardiogram showing
+              LVEF 65-70% with SVC collapse.
+            </li>
+            <li>
+              <strong class="text-zinc-500">08.17</strong> Chest Biopsy to confirms
+              Nodular Sclerosing Hodgkin Lymphoma.
             </li>
             <li>
               <strong class="text-zinc-500">08.21</strong> Initiation of ABVD chemotherapy.
@@ -177,7 +214,7 @@
       <div
         class="bg-zinc-900 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6"
       >
-        <dt class="text-lg font-medium text-zinc-50">Next Steps</dt>
+        <dt class="text-lg font-medium">Next Steps</dt>
         <dd class="mt-1 text-sm text-zinc-300 sm:col-span-2 sm:mt-0">
           Biopsy and beginning Pembro-GVD therapy.
         </dd>
@@ -186,13 +223,120 @@
   </div>
 </div>
 
-<h2 class="text-lg font-bold mb-4">Resting Heart Rate</h2>
-<a href={heartImg}>
-<img src={heartImg} class="rounded-lg" alt="Chart showing changes in my resting heart rate as a result of DVC compression and subsequent chemo" />
-</a>
-<p class="mb-10 text-xs text-zinc-300">A side effect of my Superior Vena Cava compression was the elevation of my resting heart rate (occasionally hitting 130bpm.) You can see the immediate impact of chemo therapy here.</p>
+<h2 class="text-xl font-bold mb-2">Treatment</h2>
+<h3 class="text-md font-bold hover:text-rose-700">
+  <a href="https://en.wikipedia.org/wiki/ABVD">ABVD</a>
+</h3>
+<h4 class="text-xs font-mono">
+  <a
+    href="https://en.wikipedia.org/wiki/Doxorubicin"
+    class="hover:text-rose-700">Adriamycin</a
+  >
+  |
+  <a href="https://en.wikipedia.org/wiki/Bleomycin" class="hover:text-rose-700"
+    >Bleomycin</a
+  >
+  |
+  <a
+    href="https://en.wikipedia.org/wiki/Vincristine"
+    class="hover:text-rose-700">Vincristine</a
+  >
+  |
+  <a
+    href="https://en.wikipedia.org/wiki/Dacarbazine"
+    class="hover:text-rose-700">Dacarbazine</a
+  >
+</h4>
+<aside class="italic text-sm text-zinc-300 mb-2">
+  <p>
+    Chemotherapy regimen used in the first-line treatment of Hodgkin lymphoma.
+  </p>
+  <a
+    href="https://www.google.com/search?q=vinblastine+shortage"
+    class="text-rose-700">There is an ongoing shortage of Vinblastine</a
+  > so my treatment has used Vinchristine as a substitue.
+</aside>
 
-<h2 class="text-lg font-bold mb-4">PET-CT Findings</h2>
+<ul class="ml-4 mb-4">
+  <li>
+    <strong class="text-zinc-500">08.21 </strong>First chemotherapy infusion,
+    done via intravenous injection.
+  </li>
+  <li>
+    <strong class="text-zinc-500">09.05 </strong>Second IV infusion but I had
+    significant pain in my arm due to Dacarbazine.
+  </li>
+  <li>
+    <strong class="text-zinc-500">09.18 </strong>First infusion with the
+    <a href="https://en.wikipedia.org/wiki/Port_(medical)" class="text-rose-700"
+      >Port</a
+    >, much easier.
+  </li>
+  <li><strong class="text-zinc-500">10.02 </strong>Routine infusion.</li>
+  <li>
+    <strong class="text-zinc-500">10.24 </strong>Infusion was delayed due to PET
+    scan scheduling.
+  </li>
+</ul>
+<h3 class="text-md font-bold hover:text-rose-700">
+  <a
+    href="https://lymphomahub.com/medical-information/efficacy-and-safety-of-pembro-gvd-as-second-line-therapy-for-patients-with-rr-chl"
+    >Prembo-GVD</a
+  >
+</h3>
+<h4 class="text-xs font-mono">
+  <a
+    href="https://en.wikipedia.org/wiki/Pembrolizumab"
+    class="hover:text-rose-700">Pembrolizumab</a
+  >
+  |
+  <a
+    href="https://en.wikipedia.org/wiki/Gemcitabine"
+    class="hover:text-rose-700">Gemcitabine</a
+  >
+  |
+  <a
+    href="https://en.wikipedia.org/wiki/Vinorelbine"
+    class="hover:text-rose-700">Vinorelbine</a
+  >
+  |
+  <a
+    href="https://en.wikipedia.org/?title=Liposomal_doxorubicin"
+    class="hover:text-rose-700">Liposomal Doxorubicin</a
+  >
+</h4>
+<aside class="italic text-sm text-zinc-300 mb-2">
+  <p>Combined immunotherapy and chemotherapy.</p>
+  <p>
+    It works by boosting the immune system’s anti-cancer response by blocking
+    “off signals” on your <a
+      href="https://en.wikipedia.org/wiki/T_cell"
+      class="text-rose-700">T-cells</a
+    >
+  </p>
+</aside>
+<ul class="ml-4 mb-10">
+  <li>
+    <strong class="text-zinc-500">11.15 </strong>Infusion scheduled following
+    biopsy.
+  </li>
+</ul>
+
+<h2 class="text-xl font-bold mb-4">Resting Heart Rate</h2>
+<a href={heartImg}>
+  <img
+    src={heartImg}
+    class="rounded-lg"
+    alt="Chart showing changes in my resting heart rate as a result of DVC compression and subsequent chemo"
+  />
+</a>
+<p class="mb-10 text-xs text-zinc-300">
+  A side effect of my Superior Vena Cava compression was the elevation of my
+  resting heart rate (occasionally hitting 130bpm.) You can see the immediate
+  impact of chemo therapy here.
+</p>
+
+<h2 class="text-xl font-bold mb-4">PET-CT Findings</h2>
 <div class="overflow-x-auto rounded-lg overflow-hidden">
   <table class="min-w-full text-xs font-mono">
     <thead>
@@ -214,7 +358,9 @@
           <td class="p-2 hidden md:table-cell">{finding.explanation}</td>
         </tr>
         <tr class="md:hidden">
-          <td colspan="4" class="p-2 text-zinc-500">{finding.change} :: {finding.explanation}</td>
+          <td colspan="4" class="p-2 text-zinc-500"
+            >{finding.change} :: {finding.explanation}</td
+          >
         </tr>
       {/each}
     </tbody>
