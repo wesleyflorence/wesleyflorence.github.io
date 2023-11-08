@@ -129,8 +129,7 @@
       >
         <dt class="text-lg font-medium text-zinc-50">Diagnosis</dt>
         <dd class="mt-1 text-sm text-zinc-300 sm:col-span-2 sm:mt-0">
-          Stage 2B Classic Hodgkin's Disease, Nodular Sclerosing type with
-          unfavorable prognosis factors such as SVC compression.
+          Stage 2B Classic Hodgkin's Disease, Nodular Sclerosing type.
         </dd>
       </div>
       <!-- Time Ordered Events & Findings -->
