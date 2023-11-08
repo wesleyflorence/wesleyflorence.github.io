@@ -188,8 +188,10 @@
 </div>
 
 <h2 class="text-lg font-bold mb-4">Resting Heart Rate</h2>
+<a href={heartImg}>
 <img src={heartImg} class="rounded-lg" alt="Chart showing changes in my resting heart rate as a result of DVC compression and subsequent chemo" />
-<p class="mb-10">A side effect of my Superior Vena Cava compression was the elevation of my resting heart rate (occasionally hitting 130bpm.) You can see the immediate impact of chemo therapy here.</p>
+</a>
+<p class="mb-10 text-xs text-zinc-300">A side effect of my Superior Vena Cava compression was the elevation of my resting heart rate (occasionally hitting 130bpm.) You can see the immediate impact of chemo therapy here.</p>
 
 <h2 class="text-lg font-bold mb-4">PET-CT Findings</h2>
 <div class="overflow-x-auto rounded-lg overflow-hidden">
@@ -199,7 +201,7 @@
         <th class="bg-zinc-900 p-2">Data Point</th>
         <th class="bg-zinc-900 p-2">2023.08.10</th>
         <th class="bg-zinc-900 p-2">2023.10.23</th>
-        <th class="bg-zinc-900 p-2">Change</th>
+        <th class="bg-zinc-900 p-2 hidden md:table-cell">Change</th>
         <th class="bg-zinc-900 p-2 hidden md:table-cell">Explanation</th>
       </tr>
     </thead>
@@ -209,11 +211,11 @@
           <td class="p-2">{finding.dataPoint}</td>
           <td class="p-2">{finding.firstDateValue}</td>
           <td class="p-2">{finding.secondDateValue}</td>
-          <td class="p-2">{finding.change}</td>
+          <td class="p-2 hidden md:table-cell">{finding.change}</td>
           <td class="p-2 hidden md:table-cell">{finding.explanation}</td>
         </tr>
         <tr class="md:hidden">
-          <td colspan="4" class="p-2 text-zinc-500">{finding.explanation}</td>
+          <td colspan="4" class="p-2 text-zinc-500">{finding.change} :: {finding.explanation}</td>
         </tr>
       {/each}
     </tbody>
