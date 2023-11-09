@@ -281,7 +281,7 @@
 <h3 class="text-md font-bold hover:text-rose-700">
   <a
     href="https://lymphomahub.com/medical-information/efficacy-and-safety-of-pembro-gvd-as-second-line-therapy-for-patients-with-rr-chl"
-    >Prembo-GVD</a
+    >Pembro-GVD</a
   >
 </h3>
 <h4 class="text-xs font-mono">
