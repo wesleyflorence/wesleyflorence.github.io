@@ -26,31 +26,6 @@ article h6:hover {
   @apply text-zinc-100 font-bold text-2xl mb-2;
 }
 
-/* Tables for layout */
-.resume-container table {
-  @apply table-auto min-w-full text-left;
-}
-
-/* Table cells for content and dates */
-/* .resume-container td { */
-/*   @apply align-top; */
-/* } */
-
-/* Align Location and Date columns to the right */
-.resume-container table td:nth-child(2) {
-  @apply w-1/5 text-right;
-}
-
-/* Bold text for headings within table cells */
-.resume-container td strong {
-  @apply font-bold text-zinc-300;
-}
-
-/* Italic text for subheadings and dates */
-.resume-container td em {
-  @apply italic text-zinc-400;
-}
-
 /* Unordered list styles for the main list items */
 .resume-container ul {
   @apply list-none p-0;
@@ -81,4 +56,31 @@ article h6:hover {
   @apply text-zinc-300;
 }
 
+.resume-container .resume-header-entry {
+  @apply text-xs;
+}
+
+.resume-container .resume-organization {
+  @apply font-bold;
+  @apply text-lg;
+}
+
+.resume-container .resume-location {
+  @apply text-zinc-400;
+  @apply ml-4;
+  @apply font-mono;
+}
+
+.resume-container .resume-title {
+  @apply text-zinc-400;
+  @apply ml-4;
+  @apply font-mono;
+}
+
+.resume-container .resume-timeframe {
+  @apply text-zinc-400;
+  @apply italic;
+  @apply font-mono;
+  @apply ml-4;
+}
 
