@@ -18,3 +18,67 @@ article h6:hover {
   @apply font-bold;
   cursor: pointer;
 }
+
+/* Styles for the whole resume */
+/* Has to live here as Resume is pulled from GitHub */
+/* Education and Experience section titles */
+.resume-container h1 {
+  @apply text-zinc-100 font-bold text-2xl mb-2;
+}
+
+/* Tables for layout */
+.resume-container table {
+  @apply table-auto min-w-full text-left;
+}
+
+/* Table cells for content and dates */
+/* .resume-container td { */
+/*   @apply align-top; */
+/* } */
+
+/* Align Location and Date columns to the right */
+.resume-container table td:nth-child(2) {
+  @apply w-1/5 text-right;
+}
+
+/* Bold text for headings within table cells */
+.resume-container td strong {
+  @apply font-bold text-zinc-300;
+}
+
+/* Italic text for subheadings and dates */
+.resume-container td em {
+  @apply italic text-zinc-400;
+}
+
+/* Unordered list styles for the main list items */
+.resume-container ul {
+  @apply list-none p-0;
+}
+
+/* List items within the main unordered list */
+.resume-container ul > li {
+  @apply mb-2;
+}
+
+/* Nested unordered list for job descriptions and specializations */
+.resume-container ul ul {
+  @apply list-disc space-y-2 mt-2 pl-4;
+}
+
+/* Paragraphs in the nested unordered list */
+.resume-container ul ul p {
+  @apply text-zinc-300 text-sm leading-snug;
+}
+
+/* Strong tags for job descriptions */
+.resume-container span strong {
+  @apply text-zinc-100 font-semibold;
+}
+
+/* General span styles for inline elements */
+.resume-container span {
+  @apply text-zinc-300;
+}
+
+
