@@ -16,6 +16,8 @@
   <title>wesflorence :: resume</title>
 </svelte:head>
 <h1 class="text-4xl font-bold">Wes Florence</h1>
+<a href="https://raw.githubusercontent.com/wesleyflorence/resume/main/wesley_florence_resume.pdf"
+class="text-rose-700">Download Resume</a>
 
 <div class="resume-container">
   {@html resumeHtml} <!-- Render the fetched HTML content -->
