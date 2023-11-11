@@ -12,6 +12,11 @@
   });
 </script>
 
+<svelte:head>
+  <title>wesflorence :: resume</title>
+</svelte:head>
+<h1 class="text-4xl font-bold">Wes Florence</h1>
+
 <div class="resume-container">
   {@html resumeHtml} <!-- Render the fetched HTML content -->
 </div>
