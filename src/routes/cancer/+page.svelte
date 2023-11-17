@@ -314,11 +314,32 @@
       class="text-rose-700">T-cells</a
     >
   </p>
+  <p> Treatment is 4 cycles. A cycle consists of 1 dose of Pembro-GVD, a dose of GVD, a week off.</p>
 </aside>
 <ul class="ml-4 mb-10">
   <li>
-    <strong class="text-zinc-500">11.15 </strong>Infusion scheduled following
-    biopsy.
+    <strong class="text-zinc-500">11.15 </strong>First Pembro-GVD Infusion. Bit of pain of Doxorubicin at the start.
+  </li>
+  <li>
+    <strong class="text-zinc-500">11.20 </strong>GVD infusion.
+  </li>
+  <li>
+    <strong class="text-zinc-500">12.04 </strong>Pembro-GVD infusion.
+  </li>
+  <li>
+    <strong class="text-zinc-500">12.11 </strong>GVD infusion.
+  </li>
+  <li>
+    <strong class="text-zinc-500">12.25 </strong>Pembro-GVD infusion.
+  </li>
+  <li>
+    <strong class="text-zinc-500">01.01 </strong>GVD infusion.
+  </li>
+  <li>
+    <strong class="text-zinc-500">01.15 </strong>Pembro-GVD infusion.
+  </li>
+  <li>
+    <strong class="text-zinc-500">01.22 </strong>GVD infusion.
   </li>
 </ul>
 
