@@ -121,23 +121,25 @@
   These were later understood to be related to a large chest tumor, which was
   diagnosed as Hodgkin Lymphoma. The tumor was pressing against a <a
     href="https://en.wikipedia.org/wiki/Phrenic_nerve"
-  class="text-rose-700">nerve</a
+    class="text-rose-700">nerve</a
   > in my chest, causing the cough and vomiting, and was also compressing my Superior
   Vena Cava, complicating blood flow back to my heart. This compression made anesthesia
   for a biopsy riskier than usual.
 </p>
 <p class="mb-2">
-  Treatment began with chemotherapy administered through IV, instead of the
+  Treatment began with ABVD chemotherapy administered through IV, instead of the
   standard port, due to the risks posed by my heart condition. So far,
   chemotherapy side effects have been manageable, with fatigue and numbness in
-  my fingers being the most significant. My treatment plan is under review, with
-  a potential shift from ABVD to Pembro-GVD chemotherapy, prompted by the high
+  my fingers being the most significant. My treatment has shifted from ABVD to Pembro-GVD chemotherapy, prompted by the high
   metabolic activity in my chest. However, there are encouraging indications
   that the tumor size is reducing, showing positive signs of progress.
 </p>
 
 <p class="mb-8">
-  I've created this dashboard to mindfully keep track of my timeline. It is also useful to share with friends in family who might be curious about that status of my treatement. I will continue to update it when I have the energy and will.
+  I've created this dashboard to mindfully keep track of my timeline. It is also
+  useful to share with friends in family who might be curious about that status
+  of my treatement. I will continue to update it when I have the energy and
+  will.
 </p>
 
 <div class="bg-zinc-900 shadow overflow-hidden rounded-lg mb-10">
@@ -208,6 +210,14 @@
               2 cycles of ABVD shows response with decreased mass size and metabolic
               activity but remains Deauville score 5 prompting reassessment of treatment.
             </li>
+            <li>
+              <strong class="text-zinc-500">11.13</strong> CT-guided biopsy confirms
+              persistent presence of Hodgkin cells.
+            </li>
+            <li>
+              <strong class="text-zinc-500">11.15</strong> Initiation of Pembro-GVD
+              chemotherapy.
+            </li>
           </ul>
         </dd>
       </div>
@@ -216,7 +226,11 @@
       >
         <dt class="text-lg font-medium">Next Steps</dt>
         <dd class="mt-1 text-sm text-zinc-300 sm:col-span-2 sm:mt-0">
-          Biopsy and beginning Pembro-GVD therapy.
+          Continue Pembro-GVD therapy, likely followed by
+          <a
+            href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation"
+            class="text-rose-700">stem cell transplant</a
+          >.
         </dd>
       </div>
     </dl>
@@ -314,14 +328,19 @@
       class="text-rose-700">T-cells</a
     >
   </p>
-  <p> Treatment is 4 cycles. A cycle consists of 1 dose of Pembro-GVD, a dose of GVD, a week off.</p>
+  <p>
+    Treatment is 4 cycles. A cycle consists of 1 dose of Pembro-GVD, a dose of
+    GVD, a week off.
+  </p>
 </aside>
 <ul class="ml-4 mb-10">
   <li>
-    <strong class="text-zinc-500">11.15 </strong>First Pembro-GVD Infusion. Bit of pain of Doxorubicin at the start.
+    <strong class="text-zinc-500">11.15 </strong>First Pembro-GVD Infusion. Bit
+    of pain of Doxorubicin at the start.
   </li>
   <li>
-    <strong class="text-zinc-500">11.20 </strong>GVD infusion.
+    <strong class="text-zinc-500">11.20 </strong>GVD infusion. Really tough,
+    maybe because of the small interval between doses.
   </li>
   <li>
     <strong class="text-zinc-500">12.04 </strong>Pembro-GVD infusion.
@@ -330,13 +349,13 @@
     <strong class="text-zinc-500">12.11 </strong>GVD infusion.
   </li>
   <li>
-    <strong class="text-zinc-500">12.25 </strong>Pembro-GVD infusion.
+    <strong class="text-zinc-500">12.26 </strong>Pembro-GVD infusion.
   </li>
   <li>
-    <strong class="text-zinc-500">01.01 </strong>GVD infusion.
+    <strong class="text-zinc-500">01.02 </strong>GVD infusion.
   </li>
   <li>
-    <strong class="text-zinc-500">01.15 </strong>Pembro-GVD infusion.
+    <strong class="text-zinc-500">01.16 </strong>Pembro-GVD infusion.
   </li>
   <li>
     <strong class="text-zinc-500">01.22 </strong>GVD infusion.
