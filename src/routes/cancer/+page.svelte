@@ -343,22 +343,22 @@
     maybe because of the small interval between doses.
   </li>
   <li>
-    <strong class="text-zinc-500">12.04 </strong>Pembro-GVD infusion.
+    <strong class="text-zinc-500">12.11 </strong>Pembro-GVD infusion.
   </li>
   <li>
-    <strong class="text-zinc-500">12.11 </strong>GVD infusion.
+    <strong class="text-zinc-500">12.18 </strong>GVD infusion.
   </li>
   <li>
-    <strong class="text-zinc-500">12.26 </strong>Pembro-GVD infusion.
+    <strong class="text-zinc-500">01.02 </strong>Pembro-GVD infusion.
   </li>
   <li>
-    <strong class="text-zinc-500">01.02 </strong>GVD infusion.
+    <strong class="text-zinc-500">01.08 </strong>GVD infusion.
   </li>
   <li>
-    <strong class="text-zinc-500">01.16 </strong>Pembro-GVD infusion.
+    <strong class="text-zinc-500">01.22 </strong>Pembro-GVD infusion.
   </li>
   <li>
-    <strong class="text-zinc-500">01.22 </strong>GVD infusion.
+    <strong class="text-zinc-500">01.29 </strong>GVD infusion.
   </li>
 </ul>
 
