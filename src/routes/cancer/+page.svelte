@@ -339,11 +339,10 @@
     of pain of Doxorubicin at the start.
   </li>
   <li>
-    <strong class="text-zinc-500">11.20 </strong>GVD infusion. Really tough,
-    maybe because of the small interval between doses.
+    <strong class="text-zinc-500">11.20 </strong>GVD infusion. Really tough, and low blood count and high liver enzyme readings delayed my next chemo by a week.
   </li>
   <li>
-    <strong class="text-zinc-500">12.11 </strong>Pembro-GVD infusion.
+    <strong class="text-zinc-500">12.11 </strong>Pembro-GVD infusion. ~10% lower dose to adjust for last time.
   </li>
   <li>
     <strong class="text-zinc-500">12.18 </strong>GVD infusion.
