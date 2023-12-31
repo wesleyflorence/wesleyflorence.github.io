@@ -421,7 +421,7 @@
   <table class="min-w-full text-xs font-mono">
     <thead>
       <tr>
-        <th class="bg-zinc-900 p-2">Data Point</th>
+        <th class="bg-zinc-900 p-2 hidden md:table-cell">Data Point</th>
         <th class="bg-zinc-900 p-2">2023.08.10</th>
         <th class="bg-zinc-900 p-2">2023.10.23</th>
         <th class="bg-zinc-900 p-2">2023.12.28</th>
@@ -429,10 +429,19 @@
         <th class="bg-zinc-900 p-2 hidden md:table-cell">Explanation</th>
       </tr>
     </thead>
-    <tbody class="divide-y divide-zinc-900">
+    <tbody class="divide-y divide-zinc-900 text-center">
       {#each findings as finding}
+        <tr class="md:hidden">
+          <td colspan="4" class="p-2">
+            {#if finding.dataPoint === 'Deauville Score'}
+              <a href="https://en.wikipedia.org/wiki/Deauville_Criteria" class="text-rose-700" target="_blank">{finding.dataPoint}</a>
+            {:else}
+              {finding.dataPoint}
+            {/if}
+          </td>
+        </tr>
         <tr>
-          <td class="p-2">
+          <td class="p-2 text-left hidden md:table-cell">
             {#if finding.dataPoint === 'Deauville Score'}
               <a href="https://en.wikipedia.org/wiki/Deauville_Criteria" class="text-rose-700" target="_blank">{finding.dataPoint}</a>
             {:else}
@@ -443,7 +452,7 @@
           <td class="p-2">{finding.secondDateValue}</td>
           <td class="p-2">{finding.thirdDateValue}</td>
           <td class="p-2 hidden md:table-cell">{finding.change}</td>
-          <td class="p-2 hidden md:table-cell">{finding.explanation}</td>
+          <td class="p-2 text-left hidden md:table-cell">{finding.explanation}</td>
         </tr>
         <tr class="md:hidden">
           <td colspan="4" class="p-2 text-zinc-500"
