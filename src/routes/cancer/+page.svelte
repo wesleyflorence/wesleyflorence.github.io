@@ -257,7 +257,7 @@
                 > for 4 days.
             </li>
             <li>
-              <strong class="text-zinc-500">12.28</strong> PET scan appears to show good progress under new treatment (awaiting full report from oncologist.)
+              <strong class="text-zinc-500">12.28</strong> PET scan shows strong response under new treatments, prompting final chemo dose and proceeding onto Stem-Cell Transplant.
             </li>
           </ul>
         </dd>
@@ -374,7 +374,7 @@
     GVD, a week off.
   </p>
 </aside>
-<ul class="ml-4 mb-10">
+<ul class="ml-4 mb-4">
   <li>
     <strong class="text-zinc-500">11.15 </strong>First Pembro-GVD Infusion. Bit
     of pain of Doxorubicin at the start.
@@ -389,16 +389,23 @@
     <strong class="text-zinc-500">12.18 </strong>GVD infusion. Dose lowered slightly again. Resulted in a fever of 103°F and a short stay at the hospital.
   </li>
   <li>
-    <strong class="text-zinc-500">01.02 </strong>Pembro-GVD infusion.
+    <strong class="text-zinc-500">01.02 </strong>Pembro-GVD infusion. Following positive PET-CT results this is my final infusion.
   </li>
+</ul>
+
+<h3 class="text-md font-bold hover:text-rose-700">
+  <a
+    href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation#Autologous"
+    >Autologous Stem-Cell Transplant</a
+  >
+</h3>
+<aside class="italic text-sm text-zinc-300 mb-2">
+  <p><a href="https://www.fredhutch.org/en/patient-care/treatments/blood-marrow-transplant.html" class="text-rose-700">Autologous Hematopoietic Stem Cell Transplantation</a> is a procedure where a patient's own stem cells are collected, stored, and then reinfused after intensive chemotherapy to help regenerate healthy blood cells and restore the immune system.</p>
+</aside>
+
+<ul class="ml-4 mb-10">
   <li>
-    <strong class="text-zinc-500">01.08 </strong>GVD infusion.
-  </li>
-  <li>
-    <strong class="text-zinc-500">01.22 </strong>Pembro-GVD infusion.
-  </li>
-  <li>
-    <strong class="text-zinc-500">01.29 </strong>GVD infusion.
+    <strong class="text-zinc-500">01.16 </strong>Begin intake date at Fred Hutch Cancer Center. More dates to come.
   </li>
 </ul>
 
@@ -432,22 +439,10 @@
     <tbody class="divide-y divide-zinc-900 text-center">
       {#each findings as finding}
         <tr class="md:hidden">
-          <td colspan="4" class="p-2">
-            {#if finding.dataPoint === 'Deauville Score'}
-              <a href="https://en.wikipedia.org/wiki/Deauville_Criteria" class="text-rose-700" target="_blank">{finding.dataPoint}</a>
-            {:else}
-              {finding.dataPoint}
-            {/if}
-          </td>
+          <td colspan="4" class="p-2">{finding.dataPoint}</td>
         </tr>
         <tr>
-          <td class="p-2 text-left hidden md:table-cell">
-            {#if finding.dataPoint === 'Deauville Score'}
-              <a href="https://en.wikipedia.org/wiki/Deauville_Criteria" class="text-rose-700" target="_blank">{finding.dataPoint}</a>
-            {:else}
-              {finding.dataPoint}
-            {/if}
-          </td>
+          <td class="p-2 text-left hidden md:table-cell">{finding.dataPoint}</td>
           <td class="p-2">{finding.firstDateValue}</td>
           <td class="p-2">{finding.secondDateValue}</td>
           <td class="p-2">{finding.thirdDateValue}</td>
