@@ -239,7 +239,7 @@
             <li>
               <strong class="text-zinc-500">10.23</strong> Restaging PET scan post
               2 cycles of ABVD shows response with decreased mass size and metabolic
-              activity but remains Deauville score 5 prompting reassessment of treatment.
+              activity but remains Deauville score 5 prompting reassessment of treatment. Treating as refractory.
             </li>
             <li>
               <strong class="text-zinc-500">11.13</strong> CT-guided biopsy confirms
@@ -257,7 +257,13 @@
                 > for 4 days.
             </li>
             <li>
-              <strong class="text-zinc-500">12.28</strong> PET scan shows strong response under new treatments, prompting final chemo dose and proceeding onto Stem-Cell Transplant.
+              <strong class="text-zinc-500">12.28</strong> PET scan shows a "Complete Response" under new treatments, prompting final chemo dose and proceeding onto Stem-Cell Transplant.
+            </li>
+            <li>
+              <strong class="text-zinc-500">02.06</strong> Begining of <a
+            href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation"
+            class="text-rose-700">stem-cell transplant</a
+          >.
             </li>
           </ul>
         </dd>
@@ -267,11 +273,7 @@
       >
         <dt class="text-lg font-medium">Next Steps</dt>
         <dd class="mt-1 text-sm text-zinc-300 sm:col-span-2 sm:mt-0">
-          Continue Pembro-GVD therapy, likely followed by
-          <a
-            href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation"
-            class="text-rose-700">stem cell transplant</a
-          >.
+          Stem-cell transplant and recovery.
         </dd>
       </div>
     </dl>
@@ -405,7 +407,22 @@
 
 <ul class="ml-4 mb-10">
   <li>
-    <strong class="text-zinc-500">01.16 </strong>Begin intake date at Fred Hutch Cancer Center. More dates to come.
+    <strong class="text-zinc-500">01.16 </strong>Begin testing and orientation for transplant.
+  </li>
+  <li>
+    <strong class="text-zinc-500">02.03 </strong>G-CSF <a href="https://en.wikipedia.org/wiki/Filgrastim" class="text-rose-700">(Neupogen)</a> injections to boost stem-cell count.
+  </li>
+  <li>
+    <strong class="text-zinc-500">02.05 </strong>Hickman line installation.
+  </li>
+  <li>
+    <strong class="text-zinc-500">02.06 </strong><a href="https://en.wikipedia.org/wiki/Apheresis" class="text-rose-700">Peripheral Blood Stem Cell Apheresis</a>: the process of of collecting stem-cells from my blood. Stem-cells are then frozen and stored for later transfusion.
+  </li>
+  <li>
+    <strong class="text-zinc-500">02.12 </strong>Hospitalized for 6 days of <a href="https://www.chemoexperts.com/beam-carmustine-etoposide-cytarabine-melphalan.html" class="text-rose-700">BEAM</a> chemotherapy in order to destroy any remaining cancer cells, as well as destroy or supress my immune system entirely.
+  </li>
+  <li>
+    <strong class="text-zinc-500">02.18 </strong>Transfusion of collected stemcells to replace destroyed bone-marrow and restore the bodies ability to make healthy blood cells again.
   </li>
 </ul>
 
