@@ -9,7 +9,7 @@
   <li class="mb-5">
     <a href="/library" class="text-xl hover:font-bold">Library</a>
     <p>
-      The Library is a growing collection of books I've read. Its contents are available on <a href="https://github.com/wesleyflorence/library/tree/main" class="text-rose-700 hover:font-bold">GitHub</a> and managed using Trello. While not comprehensive, it reflects an ongoing journey in self education.
+      The Library is a growing collection of books I've read. Its contents are available on <a href="https://github.com/wesleyflorence/library/tree/main" class="text-teal-300 hover:font-bold">GitHub</a> and managed using Trello. While not comprehensive, it reflects an ongoing journey in self education.
     </p>
   </li>
 

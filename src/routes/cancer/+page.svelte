@@ -146,31 +146,34 @@
 <p class="mb-5 font-mono">A dasboard for tracking health.</p>
 
 <p class="mb-2">
-  In July, I sought medical attention from my primary care physician due to a
-  persistent, dry cough that seemed reflexive in nature. Over time, additional
-  symptoms emerged, including fatigue, vomiting, and severe facial swelling.
-  These were later understood to be related to a large chest tumor, which was
-  diagnosed as Hodgkin Lymphoma. The tumor was pressing against a <a
+  In July, I sought medical attention for a persistent, dry cough. Over time,
+  additional symptoms emerged, including fatigue, vomiting, and facial swelling.
+  These were later understood to be related to a large chest tumor, diagnosed as
+  Hodgkin Lymphoma. The tumor was complicating blood flow back to my heart and
+  causing many of my symptoms by pressing against my <a
     href="https://en.wikipedia.org/wiki/Phrenic_nerve"
-    class="text-rose-700">nerve</a
-  > in my chest, causing the cough and vomiting, and was also compressing my Superior
-  Vena Cava, complicating blood flow back to my heart. This compression made anesthesia
-  for a biopsy riskier than usual.
+    class="text-teal-300">phrenic nerve</a
+  >.
 </p>
 <p class="mb-2">
-  Treatment began with ABVD chemotherapy administered through IV, instead of the
-  standard port, due to the risks posed by my heart condition. So far,
-  chemotherapy side effects have been manageable, with fatigue and numbness in
-  my fingers being the most significant. My treatment has shifted from ABVD to Pembro-GVD chemotherapy, prompted by the high
-  metabolic activity in my chest. However, there are encouraging indications
-  that the tumor size is reducing, showing positive signs of progress.
+  Treatment began with ABVD chemotherapy administered through IV due to the
+  risks posed by my heart condition. Once the tumor shrank, I was able to
+  receive chemo via a port. A PET scan in October revealed that my cancer was
+  proving resistant to ABVD. I started Pembro-GVD, a combined immunotherapy and
+  chemotherapy in response.
 </p>
-
+<p class="mb-2">
+  A PET scan in December revealed a complete response, meaning the cancerous
+  activity in the tumor decreased dramatically. Still, the previous resistance
+  indicates that the cancer could mount a comeback if given time to do so. To
+  address this concern, and wipe out any remaining cancer cells, I am undergoing
+  a stem-cell transplant.
+</p>
 <p class="mb-8">
   I've created this dashboard to mindfully keep track of my timeline. It is also
-  useful to share with friends in family who might be curious about that status
-  of my treatement. I will continue to update it when I have the energy and
-  will.
+  useful for sharing with friends and family who might be curious about the
+  status of my treatment. I will continue to update it when I have the energy
+  and will.
 </p>
 
 <div class="bg-zinc-900 shadow overflow-hidden rounded-lg mb-10">
@@ -188,13 +191,13 @@
       >
         <dt class="text-lg font-medium">Diagnosis</dt>
         <dd class="mt-1 text-sm text-zinc-300 sm:col-span-2 sm:mt-0">
-          Stage 2B Classic <a
+          Stage IIB Classic <a
             href="https://en.wikipedia.org/wiki/Hodgkin_lymphoma"
-            class="text-rose-700">Hodgkin's Disease</a
+            class="text-teal-300">Hodgkin's Disease</a
           >, Nodular Sclerosing type with
           <a
             href="https://en.wikipedia.org/wiki/Superior_vena_cava"
-            class="text-rose-700">Superior Vena Cava</a
+            class="text-teal-300">Superior Vena Cava</a
           > compression.
         </dd>
       </div>
@@ -239,7 +242,8 @@
             <li>
               <strong class="text-zinc-500">10.23</strong> Restaging PET scan post
               2 cycles of ABVD shows response with decreased mass size and metabolic
-              activity but remains Deauville score 5 prompting reassessment of treatment. Treating as refractory.
+              activity but remains Deauville score 5 prompting reassessment of treatment.
+              Treating as refractory.
             </li>
             <li>
               <strong class="text-zinc-500">11.13</strong> CT-guided biopsy confirms
@@ -250,20 +254,23 @@
               chemotherapy.
             </li>
             <li>
-              <strong class="text-zinc-500">12.22</strong> Hospitalized with a 
-                <a
-                  href="https://en.wikipedia.org/wiki/Febrile_neutropenia"
-                  class="text-rose-700">neutropenic fever</a
-                > for 4 days.
+              <strong class="text-zinc-500">12.22</strong> Hospitalized with a
+              <a
+                href="https://en.wikipedia.org/wiki/Febrile_neutropenia"
+                class="text-teal-300">neutropenic fever</a
+              > for 4 days.
             </li>
             <li>
-              <strong class="text-zinc-500">12.28</strong> PET scan shows a "Complete Response" under new treatments, prompting final chemo dose and proceeding onto Stem-Cell Transplant.
+              <strong class="text-zinc-500">12.28</strong> PET scan shows a "Complete
+              Response" under new treatments, prompting final chemo dose and proceeding
+              onto Stem-Cell Transplant.
             </li>
             <li>
-              <strong class="text-zinc-500">02.06</strong> Begining of <a
-            href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation"
-            class="text-rose-700">stem-cell transplant</a
-          >.
+              <strong class="text-zinc-500">02.06</strong> Begining of
+              <a
+                href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation"
+                class="text-teal-300">stem-cell transplant</a
+              >.
             </li>
           </ul>
         </dd>
@@ -281,27 +288,27 @@
 </div>
 
 <h2 class="text-xl font-bold mb-2">Treatment</h2>
-<h3 class="text-md font-bold hover:text-rose-700">
+<h3 class="text-md font-bold hover:text-teal-300">
   <a href="https://en.wikipedia.org/wiki/ABVD">ABVD</a>
 </h3>
 <h4 class="text-xs font-mono">
   <a
     href="https://en.wikipedia.org/wiki/Doxorubicin"
-    class="hover:text-rose-700">Adriamycin</a
+    class="hover:text-teal-300">Adriamycin</a
   >
   |
-  <a href="https://en.wikipedia.org/wiki/Bleomycin" class="hover:text-rose-700"
+  <a href="https://en.wikipedia.org/wiki/Bleomycin" class="hover:text-teal-300"
     >Bleomycin</a
   >
   |
   <a
     href="https://en.wikipedia.org/wiki/Vincristine"
-    class="hover:text-rose-700">Vincristine</a
+    class="hover:text-teal-300">Vincristine</a
   >
   |
   <a
     href="https://en.wikipedia.org/wiki/Dacarbazine"
-    class="hover:text-rose-700">Dacarbazine</a
+    class="hover:text-teal-300">Dacarbazine</a
   >
 </h4>
 <aside class="italic text-sm text-zinc-300 mb-2">
@@ -310,7 +317,7 @@
   </p>
   <a
     href="https://www.google.com/search?q=vinblastine+shortage"
-    class="text-rose-700">There is an ongoing shortage of Vinblastine</a
+    class="text-teal-300">There is an ongoing shortage of Vinblastine</a
   > so my treatment has used Vinchristine as a substitue.
 </aside>
 
@@ -325,7 +332,7 @@
   </li>
   <li>
     <strong class="text-zinc-500">09.18 </strong>First infusion with the
-    <a href="https://en.wikipedia.org/wiki/Port_(medical)" class="text-rose-700"
+    <a href="https://en.wikipedia.org/wiki/Port_(medical)" class="text-teal-300"
       >Port</a
     >, much easier.
   </li>
@@ -335,7 +342,7 @@
     scan scheduling.
   </li>
 </ul>
-<h3 class="text-md font-bold hover:text-rose-700">
+<h3 class="text-md font-bold hover:text-teal-300">
   <a
     href="https://lymphomahub.com/medical-information/efficacy-and-safety-of-pembro-gvd-as-second-line-therapy-for-patients-with-rr-chl"
     >Pembro-GVD</a
@@ -344,22 +351,22 @@
 <h4 class="text-xs font-mono">
   <a
     href="https://en.wikipedia.org/wiki/Pembrolizumab"
-    class="hover:text-rose-700">Pembrolizumab</a
+    class="hover:text-teal-300">Pembrolizumab</a
   >
   |
   <a
     href="https://en.wikipedia.org/wiki/Gemcitabine"
-    class="hover:text-rose-700">Gemcitabine</a
+    class="hover:text-teal-300">Gemcitabine</a
   >
   |
   <a
     href="https://en.wikipedia.org/wiki/Vinorelbine"
-    class="hover:text-rose-700">Vinorelbine</a
+    class="hover:text-teal-300">Vinorelbine</a
   >
   |
   <a
     href="https://en.wikipedia.org/?title=Liposomal_doxorubicin"
-    class="hover:text-rose-700">Liposomal Doxorubicin</a
+    class="hover:text-teal-300">Liposomal Doxorubicin</a
   >
 </h4>
 <aside class="italic text-sm text-zinc-300 mb-2">
@@ -368,7 +375,7 @@
     It works by boosting the immune system’s anti-cancer response by blocking
     “off signals” on your <a
       href="https://en.wikipedia.org/wiki/T_cell"
-      class="text-rose-700">T-cells</a
+      class="text-teal-300">T-cells</a
     >
   </p>
   <p>
@@ -382,47 +389,76 @@
     of pain of Doxorubicin at the start.
   </li>
   <li>
-    <strong class="text-zinc-500">11.20 </strong>GVD infusion. Really tough, and low blood count and high liver enzyme readings delayed my next chemo by a week.
+    <strong class="text-zinc-500">11.20 </strong>GVD infusion. Really tough, and
+    low blood count and high liver enzyme readings delayed my next chemo by a
+    week.
   </li>
   <li>
-    <strong class="text-zinc-500">12.11 </strong>Pembro-GVD infusion. ~10% lower dose to adjust for last time.
+    <strong class="text-zinc-500">12.11 </strong>Pembro-GVD infusion. ~10% lower
+    dose to adjust for last time.
   </li>
   <li>
-    <strong class="text-zinc-500">12.18 </strong>GVD infusion. Dose lowered slightly again. Resulted in a fever of 103°F and a short stay at the hospital.
+    <strong class="text-zinc-500">12.18 </strong>GVD infusion. Dose lowered
+    slightly again. Resulted in a fever of 103°F and a short stay at the
+    hospital.
   </li>
   <li>
-    <strong class="text-zinc-500">01.02 </strong>Pembro-GVD infusion. Following positive PET-CT results this is my final infusion.
+    <strong class="text-zinc-500">01.02 </strong>Pembro-GVD infusion. Following
+    positive PET-CT results this is my final infusion.
   </li>
 </ul>
 
-<h3 class="text-md font-bold hover:text-rose-700">
+<h3 class="text-md font-bold hover:text-teal-300">
   <a
     href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell_transplantation#Autologous"
     >Autologous Stem-Cell Transplant</a
   >
 </h3>
 <aside class="italic text-sm text-zinc-300 mb-2">
-  <p><a href="https://www.fredhutch.org/en/patient-care/treatments/blood-marrow-transplant.html" class="text-rose-700">Autologous Hematopoietic Stem Cell Transplantation</a> is a procedure where a patient's own stem cells are collected, stored, and then reinfused after intensive chemotherapy to help regenerate healthy blood cells and restore the immune system.</p>
+  <p>
+    <a
+      href="https://www.fredhutch.org/en/patient-care/treatments/blood-marrow-transplant.html"
+      class="text-teal-300"
+      >Autologous Hematopoietic Stem Cell Transplantation</a
+    > is a procedure where a patient's own stem cells are collected, stored, and
+    then reinfused after intensive chemotherapy to help regenerate healthy blood
+    cells and restore the immune system.
+  </p>
 </aside>
 
 <ul class="ml-4 mb-10">
   <li>
-    <strong class="text-zinc-500">01.16 </strong>Begin testing and orientation for transplant.
+    <strong class="text-zinc-500">01.16 </strong>Begin testing and orientation
+    for transplant.
   </li>
   <li>
-    <strong class="text-zinc-500">02.03 </strong>G-CSF <a href="https://en.wikipedia.org/wiki/Filgrastim" class="text-rose-700">(Neupogen)</a> injections to boost stem-cell count.
+    <strong class="text-zinc-500">02.03 </strong>G-CSF
+    <a href="https://en.wikipedia.org/wiki/Filgrastim" class="text-teal-300"
+      >Neupogen</a
+    > injections to boost stem-cell count.
   </li>
   <li>
     <strong class="text-zinc-500">02.05 </strong>Hickman line installation.
   </li>
   <li>
-    <strong class="text-zinc-500">02.06 </strong><a href="https://en.wikipedia.org/wiki/Apheresis" class="text-rose-700">Peripheral Blood Stem Cell Apheresis</a>: the process of of collecting stem-cells from my blood. Stem-cells are then frozen and stored for later transfusion.
+    <strong class="text-zinc-500">02.06 </strong><a
+      href="https://en.wikipedia.org/wiki/Apheresis"
+      class="text-teal-300">Peripheral Blood Stem Cell Apheresis</a
+    >: the process of of collecting stem-cells from my blood. Stem-cells are
+    then frozen and stored for later transfusion.
   </li>
   <li>
-    <strong class="text-zinc-500">02.12 </strong>Hospitalized for 6 days of <a href="https://www.chemoexperts.com/beam-carmustine-etoposide-cytarabine-melphalan.html" class="text-rose-700">BEAM</a> chemotherapy in order to destroy any remaining cancer cells, as well as destroy or supress my immune system entirely.
+    <strong class="text-zinc-500">02.12 </strong>Hospitalized for 6 days of
+    <a
+      href="https://www.chemoexperts.com/beam-carmustine-etoposide-cytarabine-melphalan.html"
+      class="text-teal-300">BEAM</a
+    > chemotherapy in order to destroy any remaining cancer cells, as well as destroy
+    or supress my immune system entirely.
   </li>
   <li>
-    <strong class="text-zinc-500">02.18 </strong>Transfusion of collected stemcells to replace destroyed bone-marrow and restore the bodies ability to make healthy blood cells again.
+    <strong class="text-zinc-500">02.18 </strong>Transfusion of collected
+    stemcells to replace destroyed bone-marrow and restore the bodies ability to
+    make healthy blood cells again.
   </li>
 </ul>
 
@@ -459,12 +495,15 @@
           <td colspan="4" class="p-2">{finding.dataPoint}</td>
         </tr>
         <tr>
-          <td class="p-2 text-left hidden md:table-cell">{finding.dataPoint}</td>
+          <td class="p-2 text-left hidden md:table-cell">{finding.dataPoint}</td
+          >
           <td class="p-2">{finding.firstDateValue}</td>
           <td class="p-2">{finding.secondDateValue}</td>
           <td class="p-2">{finding.thirdDateValue}</td>
           <td class="p-2 hidden md:table-cell">{finding.change}</td>
-          <td class="p-2 text-left hidden md:table-cell">{finding.explanation}</td>
+          <td class="p-2 text-left hidden md:table-cell"
+            >{finding.explanation}</td
+          >
         </tr>
         <tr class="md:hidden">
           <td colspan="4" class="p-2 text-zinc-500"
