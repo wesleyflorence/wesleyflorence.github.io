@@ -137,6 +137,8 @@
         "Score used to measure treatment response in lymphoma, with 3 suggesting response to treatment or indeterminate activity. Uptake SUV > mediastinal blood pool SUV but ≤ liver SUV in this case.",
     },
   ];
+
+  let transplantSublist = false; // State to manage visibility of the sublist
 </script>
 
 <svelte:head>
@@ -448,15 +450,93 @@
     then frozen and stored for later transfusion.
   </li>
   <li>
-    <strong class="text-zinc-500">02.12 </strong>Hospitalized for 6 days of
+    <strong class="text-zinc-500">02.14 </strong>Hospitalized for 6 days of
     <a
       href="https://www.chemoexperts.com/beam-carmustine-etoposide-cytarabine-melphalan.html"
       class="text-teal-300">BEAM</a
     > chemotherapy in order to destroy any remaining cancer cells, as well as destroy
     or supress my immune system entirely.
+    <button class="ml-2 align-middle rounded-sm text-xs font-mono px-2 py-0.5 bg-teal-500 text-zinc-900" on:click={() => transplantSublist = !transplantSublist}>
+      {transplantSublist ? 'Hide Details' : 'Show Details'}
+    </button>
   </li>
+  {#if transplantSublist}
+    <li class="ml-4">
+      <table class="table-auto w-full mt-2 font-mono">
+        <thead class="text-xs bg-zinc-900">
+          <tr>
+            <th class="px-4 py-2">Countdown</th>
+            <th class="px-4 py-2">Date</th>
+            <th class="px-4 py-2">Treatment</th>
+          </tr>
+        </thead>
+        <tbody class="text-sm divide-y divide-zinc-900">
+          <tr>
+            <td class="px-4 py-2">Day -7</td>
+            <th class="px-4 py-2">02.14 (We)</th>
+            <td class="px-4 py-2"><a
+      href="https://en.wikipedia.org/wiki/Carmustine"
+      class="text-teal-300">BCNU</a></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">Day -6</td>
+            <th class="px-4 py-2">02.15 (Th)</th>
+            <td class="px-4 py-2"><a 
+              href="https://en.wikipedia.org/wiki/Etoposide"
+              class="text-teal-300">Etoposide</a> & <a 
+                href="https://en.wikipedia.org/wiki/Cytarabine"
+                class="text-teal-300">AraC</a></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">Day -5</td>
+            <th class="px-4 py-2">02.16 (Fr)</th>
+            <td class="px-4 py-2"><a 
+              href="https://en.wikipedia.org/wiki/Etoposide"
+              class="text-teal-300">Etoposide</a> & <a 
+                href="https://en.wikipedia.org/wiki/Cytarabine"
+                class="text-teal-300">AraC</a></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">Day -4</td>
+            <th class="px-4 py-2">02.17 (Sa)</th>
+            <td class="px-4 py-2"><a 
+              href="https://en.wikipedia.org/wiki/Etoposide"
+              class="text-teal-300">Etoposide</a> & <a 
+                href="https://en.wikipedia.org/wiki/Cytarabine"
+                class="text-teal-300">AraC</a></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">Day -3</td>
+            <th class="px-4 py-2">02.18 (Su)</th>
+            <td class="px-4 py-2"><a 
+              href="https://en.wikipedia.org/wiki/Etoposide"
+              class="text-teal-300">Etoposide</a> & <a 
+                href="https://en.wikipedia.org/wiki/Cytarabine"
+                class="text-teal-300">AraC</a></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">Day -2</td>
+            <th class="px-4 py-2">02.19 (Mo)</th>
+            <td class="px-4 py-2"><a 
+              href="https://en.wikipedia.org/wiki/Melphalan"
+              class="text-teal-300">Melaphalan</a></td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">Day -1</td>
+            <th class="px-4 py-2">02.20 (Tu)</th>
+            <td class="px-4 py-2">Rest</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-2">Day 0</td>
+            <th class="px-4 py-2">02.21 (We)</th>
+            <td class="px-4 py-2">Stem-cell infusion</td>
+          </tr>
+        </tbody>
+      </table>
+    </li>
+  {/if}
   <li>
-    <strong class="text-zinc-500">02.18 </strong>Transfusion of collected
+    <strong class="text-zinc-500">02.21 </strong>Transfusion of collected
     stemcells to replace destroyed bone-marrow and restore the bodies ability to
     make healthy blood cells again.
   </li>
