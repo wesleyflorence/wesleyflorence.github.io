@@ -274,6 +274,12 @@
                 class="text-teal-300">stem-cell transplant</a
               >.
             </li>
+            <li>
+              <strong class="text-zinc-500">03.06</strong> Successful transplant complete, discharged from hospital.
+            </li>
+            <li>
+              <strong class="text-zinc-500">03.20</strong> Day 30 since tranplant, marks the end of the process.
+            </li>
           </ul>
         </dd>
       </div>
@@ -282,7 +288,7 @@
       >
         <dt class="text-lg font-medium">Next Steps</dt>
         <dd class="mt-1 text-sm text-zinc-300 sm:col-span-2 sm:mt-0">
-          Stem-cell transplant and recovery.
+          Recovery from transplant, removal of hickman line, potentially immunotherapy to increase the odds of the remission sticking.
         </dd>
       </div>
     </dl>
@@ -454,10 +460,14 @@
     <a
       href="https://www.chemoexperts.com/beam-carmustine-etoposide-cytarabine-melphalan.html"
       class="text-teal-300">BEAM</a
-    > chemotherapy in order to destroy any remaining cancer cells, as well as destroy
+    >
+    chemotherapy in order to destroy any remaining cancer cells, as well as destroy
     or supress my immune system entirely.
-    <button class="ml-2 align-middle rounded-sm text-xs font-mono px-2 py-0.5 bg-teal-500 text-zinc-900" on:click={() => transplantSublist = !transplantSublist}>
-      {transplantSublist ? 'Hide Details' : 'Show Details'}
+    <button
+      class="ml-2 align-middle rounded-sm text-xs font-mono px-2 py-0.5 bg-teal-500 text-zinc-900"
+      on:click={() => (transplantSublist = !transplantSublist)}
+    >
+      {transplantSublist ? "Hide Details" : "Show Details"}
     </button>
   </li>
   {#if transplantSublist}
@@ -474,52 +484,82 @@
           <tr>
             <td class="px-4 py-2">Day -7</td>
             <th class="px-4 py-2">02.14 (We)</th>
-            <td class="px-4 py-2"><a
-      href="https://en.wikipedia.org/wiki/Carmustine"
-      class="text-teal-300">BCNU</a></td>
+            <td class="px-4 py-2"
+              ><a
+                href="https://en.wikipedia.org/wiki/Carmustine"
+                class="text-teal-300">BCNU</a
+              ></td
+            >
           </tr>
           <tr>
             <td class="px-4 py-2">Day -6</td>
             <th class="px-4 py-2">02.15 (Th)</th>
-            <td class="px-4 py-2"><a 
-              href="https://en.wikipedia.org/wiki/Etoposide"
-              class="text-teal-300">Etoposide</a> & <a 
+            <td class="px-4 py-2"
+              ><a
+                href="https://en.wikipedia.org/wiki/Etoposide"
+                class="text-teal-300">Etoposide</a
+              >
+              &
+              <a
                 href="https://en.wikipedia.org/wiki/Cytarabine"
-                class="text-teal-300">AraC</a></td>
+                class="text-teal-300">AraC</a
+              ></td
+            >
           </tr>
           <tr>
             <td class="px-4 py-2">Day -5</td>
             <th class="px-4 py-2">02.16 (Fr)</th>
-            <td class="px-4 py-2"><a 
-              href="https://en.wikipedia.org/wiki/Etoposide"
-              class="text-teal-300">Etoposide</a> & <a 
+            <td class="px-4 py-2"
+              ><a
+                href="https://en.wikipedia.org/wiki/Etoposide"
+                class="text-teal-300">Etoposide</a
+              >
+              &
+              <a
                 href="https://en.wikipedia.org/wiki/Cytarabine"
-                class="text-teal-300">AraC</a></td>
+                class="text-teal-300">AraC</a
+              ></td
+            >
           </tr>
           <tr>
             <td class="px-4 py-2">Day -4</td>
             <th class="px-4 py-2">02.17 (Sa)</th>
-            <td class="px-4 py-2"><a 
-              href="https://en.wikipedia.org/wiki/Etoposide"
-              class="text-teal-300">Etoposide</a> & <a 
+            <td class="px-4 py-2"
+              ><a
+                href="https://en.wikipedia.org/wiki/Etoposide"
+                class="text-teal-300">Etoposide</a
+              >
+              &
+              <a
                 href="https://en.wikipedia.org/wiki/Cytarabine"
-                class="text-teal-300">AraC</a></td>
+                class="text-teal-300">AraC</a
+              ></td
+            >
           </tr>
           <tr>
             <td class="px-4 py-2">Day -3</td>
             <th class="px-4 py-2">02.18 (Su)</th>
-            <td class="px-4 py-2"><a 
-              href="https://en.wikipedia.org/wiki/Etoposide"
-              class="text-teal-300">Etoposide</a> & <a 
+            <td class="px-4 py-2"
+              ><a
+                href="https://en.wikipedia.org/wiki/Etoposide"
+                class="text-teal-300">Etoposide</a
+              >
+              &
+              <a
                 href="https://en.wikipedia.org/wiki/Cytarabine"
-                class="text-teal-300">AraC</a></td>
+                class="text-teal-300">AraC</a
+              ></td
+            >
           </tr>
           <tr>
             <td class="px-4 py-2">Day -2</td>
             <th class="px-4 py-2">02.19 (Mo)</th>
-            <td class="px-4 py-2"><a 
-              href="https://en.wikipedia.org/wiki/Melphalan"
-              class="text-teal-300">Melaphalan</a></td>
+            <td class="px-4 py-2"
+              ><a
+                href="https://en.wikipedia.org/wiki/Melphalan"
+                class="text-teal-300">Melaphalan</a
+              ></td
+            >
           </tr>
           <tr>
             <td class="px-4 py-2">Day -1</td>
@@ -539,6 +579,15 @@
     <strong class="text-zinc-500">02.21 </strong>Transfusion of collected
     stemcells to replace destroyed bone-marrow and restore the bodies ability to
     make healthy blood cells again.
+  </li>
+  <li>
+    <strong class="text-zinc-500">02.29 </strong><a href="https://en.wikipedia.org/wiki/Neutrophil" class="text-teal-300">Neutriphil</a> count bounced back from 0 to 40uL. By 03.02 they were at 4280uL, signaling successful engraftment.
+  </li>
+  <li>
+    <strong class="text-zinc-500">03.06 </strong>Discharged from the hospital.
+  </li>
+  <li>
+    <strong class="text-zinc-500">03.20 </strong>30 days since transplant, daily clinic visits should stop.
   </li>
 </ul>
 
