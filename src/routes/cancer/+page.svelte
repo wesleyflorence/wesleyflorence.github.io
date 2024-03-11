@@ -282,7 +282,7 @@
               complete, discharged from hospital.
             </li>
             <li>
-              <strong class="text-zinc-500">03.20</strong> Day 30 since tranplant,
+              <strong class="text-zinc-500">03.20</strong> Day 30 since transplant,
               marks the end of the process.
             </li>
           </ul>
@@ -589,7 +589,7 @@
   <li>
     <strong class="text-zinc-500">02.29 </strong><a
       href="https://en.wikipedia.org/wiki/Neutrophil"
-      class="text-teal-300">Neutriphil</a
+      class="text-teal-300">Neutrophil</a
     > count bounced back from 0 to 40uL. By 03.02 they were at 4280uL, signaling
     successful engraftment.
   </li>
