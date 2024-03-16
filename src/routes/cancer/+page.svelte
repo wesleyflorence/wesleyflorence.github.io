@@ -609,7 +609,8 @@
     clinic visits should stop.
   </li>
   <li>
-    <strong class="text-zinc-500">03.27 </strong>Removal of Hickman line and final discharge from transplant treatment.
+    <strong class="text-zinc-500">03.27 </strong>Removal of Hickman line and
+    final discharge from transplant treatment.
   </li>
 </ul>
 
