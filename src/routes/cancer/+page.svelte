@@ -168,11 +168,16 @@
   A PET scan in December revealed a complete response, meaning the cancerous
   activity in the tumor decreased dramatically. Still, the previous resistance
   indicates that the cancer could mount a comeback if given time to do so. To
-  address this concern, and wipe out any remaining cancer cells, I received
-  a stem-cell transplant.
+  address this concern, and wipe out any remaining cancer cells, I received a
+  stem-cell transplant.
 </p>
 <p class="mb-2">
-  The transplant was successful, and I'm now entering a recovery period. The transplant will be truely complete after 30 days, but it will take up to a year for my immune system to fully recover. This means I'll have to follow some dietary and social restrictions, but they shouldn't be too severe. Additionally, I might undergo maintenance immunotherapy treatment, which is relatively gentle and will allow me to resume a more normal lifestyle.
+  The transplant was successful, and I'm now entering a recovery period. The
+  transplant will be truely complete after 30 days, but it will take up to a
+  year for my immune system to fully recover. This means I'll have to follow
+  some dietary and social restrictions, but they shouldn't be too severe.
+  Additionally, I might undergo maintenance immunotherapy treatment, which is
+  relatively gentle and will allow me to resume a more normal lifestyle.
 </p>
 <p class="mb-8">
   I've created this dashboard to mindfully keep track of my timeline. It is also
@@ -282,8 +287,11 @@
               complete, discharged from hospital.
             </li>
             <li>
-              <strong class="text-zinc-500">03.20</strong> Day 30 since transplant,
-              marks the end of the process.
+              <strong class="text-zinc-500">03.22</strong> Re-staging PET scan.
+            </li>
+            <li>
+              <strong class="text-zinc-500">03.27</strong> Discharge from transplant
+              clinic and removal of Hickman line.
             </li>
           </ul>
         </dd>
@@ -599,6 +607,9 @@
   <li>
     <strong class="text-zinc-500">03.20 </strong>30 days since transplant, daily
     clinic visits should stop.
+  </li>
+  <li>
+    <strong class="text-zinc-500">03.27 </strong>Removal of Hickman line and final discharge from transplant treatment.
   </li>
 </ul>
 
