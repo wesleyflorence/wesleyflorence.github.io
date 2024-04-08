@@ -10,43 +10,48 @@
 <h1 class="text-4xl font-bold">Cancer</h1>
 <p class="mb-5 font-mono">A dasboard for tracking health.</p>
 
-
 <p class="mb-2">
-  As of April 05, 2024 I am in remission. After 8 months of treatment I will need some time to recover. In the mean time I will be under close watch to ensure that the cancer does not return and there are no complications due to the treatment itself.
+  As of April 5, 2024, I am in remission and have completed my cancer treatment.
+  After this eight-month journey, I will need some time to recover. In the
+  meantime, I will be closely monitored to ensure that the cancer does not
+  return and that there are no complications resulting from the treatment
+  itself.
 </p>
 
 <p class="mb-8">
-  I created this dashboard to mindfully keep track of my treatment while it progressed.
-  I am coming to the end of that journey so hopefully this will become an merely archival document very shortly.
-  I will continue to update it if needed though. Thanks for following along.
+  I created this dashboard to mindfully keep track of my treatment while it
+  progressed. Hopefully, this will become merely an archival document very
+  shortly. However, I will continue to update it if needed. Thanks for following
+  along.
 </p>
 
 <div class="bg-zinc-900 shadow overflow-hidden rounded-lg mb-10">
   <div class="px-4 py-5 sm:px-6">
     <h3 class="text-lg leading-6 font-medium">Diagnosis</h3>
     <p class="mt-1 text-sm text-zinc-300">
-          Stage IIB Classic <a
-            href="https://en.wikipedia.org/wiki/Hodgkin_lymphoma"
-            class="text-teal-300">Hodgkin's Disease</a
-          >, Nodular Sclerosing type with
-          <a
-            href="https://en.wikipedia.org/wiki/Superior_vena_cava"
-            class="text-teal-300">Superior Vena Cava</a
-          > compression.
+      Stage IIB Classic <a
+        href="https://en.wikipedia.org/wiki/Hodgkin_lymphoma"
+        class="text-teal-300">Hodgkin's Disease</a
+      >, Nodular Sclerosing type with
+      <a
+        href="https://en.wikipedia.org/wiki/Superior_vena_cava"
+        class="text-teal-300">Superior Vena Cava</a
+      > compression.
     </p>
   </div>
 
   <div class="px-4 pb-5 sm:px-6">
     <h3 class="text-lg leading-6 font-medium">Status</h3>
     <p class="mt-1 text-sm text-zinc-300">
-        Remission or the total disappearance of signs or symptoms of the cancer.
+      Remission or the total disappearance of signs or symptoms of the cancer.
     </p>
   </div>
 
   <div class="px-4 pb-5 sm:px-6">
     <h3 class="text-lg leading-6 font-medium">Next Steps</h3>
     <p class="mt-1 text-sm text-zinc-300">
-          Recovery from transplant. Regular scans and tests to monitor for disease relapse, transplant complications, or secondary cancers.
+      Recovery from transplant. Regular scans and tests to monitor for disease
+      relapse, transplant complications, or secondary cancers.
     </p>
   </div>
 </div>
@@ -87,9 +92,7 @@
 
 <h3 class="text-md font-bold">Diagnosis</h3>
 <aside class="italic text-sm text-zinc-300 mb-2">
-  <p>
-    Summer 2023 initial findings.
-  </p>
+  <p>Summer 2023 initial findings.</p>
 </aside>
 <ul class="ml-4 mb-4">
   <li>
@@ -97,24 +100,24 @@
     mass via Chest X-Ray.
   </li>
   <li>
-    <strong class="text-zinc-500">07.25</strong> CT scan confirms tumor
-    extending into right chest, encasing SVC.
+    <strong class="text-zinc-500">07.25</strong> CT scan confirms tumor extending
+    into right chest, encasing SVC.
   </li>
   <li>
-    <strong class="text-zinc-500">08.02</strong> CT-guided biopsy revealing
-    atypical lymphohistiocytic infiltrate.
+    <strong class="text-zinc-500">08.02</strong> CT-guided biopsy revealing atypical
+    lymphohistiocytic infiltrate.
   </li>
   <li>
-    <strong class="text-zinc-500">08.10</strong> Initial PET scan reveals
-    extensive disease with high metabolic activity.
+    <strong class="text-zinc-500">08.10</strong> Initial PET scan reveals extensive
+    disease with high metabolic activity.
   </li>
   <li>
-    <strong class="text-zinc-500">08.14</strong> Echocardiogram showing
-    LVEF 65-70% with SVC collapse.
+    <strong class="text-zinc-500">08.14</strong> Echocardiogram showing LVEF 65-70%
+    with SVC collapse.
   </li>
   <li>
-    <strong class="text-zinc-500">08.17</strong> Chest Biopsy to confirms
-    Nodular Sclerosing Hodgkin Lymphoma.
+    <strong class="text-zinc-500">08.17</strong> Chest Biopsy to confirms Nodular
+    Sclerosing Hodgkin Lymphoma.
   </li>
 </ul>
 
@@ -153,7 +156,8 @@
 
 <ul class="ml-4 mb-4">
   <li>
-    <strong class="text-zinc-500">08.21 </strong>Initiation of ABVD chemotherapy. First infusion done via intravenous injection.
+    <strong class="text-zinc-500">08.21 </strong>Initiation of ABVD
+    chemotherapy. First infusion done via intravenous injection.
   </li>
   <li>
     <strong class="text-zinc-500">09.05 </strong>Second IV infusion but I had
@@ -171,8 +175,8 @@
   </li>
   <li><strong class="text-zinc-500">10.02 </strong>Routine infusion.</li>
   <li>
-    <strong class="text-zinc-500">10.23 </strong>Restaging PET scan post
-    2 cycles of ABVD shows response with decreased mass size and metabolic
+    <strong class="text-zinc-500">10.23 </strong>Restaging PET scan post 2
+    cycles of ABVD shows response with decreased mass size and metabolic
     activity but remains Deauville score 5 prompting reassessment of treatment.
     Treating as refractory.
   </li>
@@ -181,8 +185,8 @@
     scan scheduling.
   </li>
   <li>
-    <strong class="text-zinc-500">11.13</strong> CT-guided biopsy confirms
-    persistent presence of Hodgkin cells and demonstrates the cancer's resistance to ABVD.
+    <strong class="text-zinc-500">11.13</strong> CT-guided biopsy confirms persistent
+    presence of Hodgkin cells and demonstrates the cancer's resistance to ABVD.
   </li>
 </ul>
 
@@ -230,8 +234,10 @@
 
 <ul class="ml-4 mb-4">
   <li>
-    <strong class="text-zinc-500">11.15 </strong>Initiation of Pembro-GVD chemotherapy. First infusion with a bit of pain from Doxorubicin at the start.
-  </li>  
+    <strong class="text-zinc-500">11.15 </strong>Initiation of Pembro-GVD
+    chemotherapy. First infusion with a bit of pain from Doxorubicin at the
+    start.
+  </li>
   <li>
     <strong class="text-zinc-500">11.20 </strong>GVD infusion. Really tough, and
     low blood count and high liver enzyme readings delayed my next chemo by a
@@ -243,7 +249,8 @@
   </li>
   <li>
     <strong class="text-zinc-500">12.18 </strong>GVD infusion. Dose lowered
-    slightly again.</li>
+    slightly again.
+  </li>
   <li>
     <strong class="text-zinc-500">12.22 </strong>Hospitalized for 4 days with a
     <a
@@ -295,11 +302,12 @@
     <strong class="text-zinc-500">02.05 </strong>Hickman line installation.
   </li>
   <li>
-    <strong class="text-zinc-500">02.06 </strong>Begining of stem-cell transplant. <a
-      href="https://en.wikipedia.org/wiki/Apheresis"
-      class="text-teal-300">Peripheral Blood Stem Cell Apheresis</a
-    >: the process of collecting stem cells from my blood. Stem cells are
-    then frozen and stored for later transfusion.
+    <strong class="text-zinc-500">02.06 </strong>Begining of stem-cell
+    transplant.
+    <a href="https://en.wikipedia.org/wiki/Apheresis" class="text-teal-300"
+      >Peripheral Blood Stem Cell Apheresis</a
+    >: the process of collecting stem cells from my blood. Stem cells are then
+    frozen and stored for later transfusion.
   </li>
   <li>
     <strong class="text-zinc-500">02.14 </strong>Hospitalized for 6 days of
@@ -422,8 +430,8 @@
     </li>
   {/if}
   <li>
-    <strong class="text-zinc-500">02.21 </strong>Transfusion of collected
-    stem cells to replace destroyed bone marrow and restore the body's ability to
+    <strong class="text-zinc-500">02.21 </strong>Transfusion of collected stem
+    cells to replace destroyed bone marrow and restore the body's ability to
     make healthy blood cells again.
   </li>
   <li>
@@ -441,13 +449,15 @@
     clinic visits stop.
   </li>
   <li>
-    <strong class="text-zinc-500">03.22 </strong>Re-staging PET scan confirms no remaining disease.
+    <strong class="text-zinc-500">03.22 </strong>Re-staging PET scan confirms no
+    remaining disease.
   </li>
   <li>
     <strong class="text-zinc-500">03.27 </strong>Removal of Hickman line.
   </li>
   <li>
-    <strong class="text-zinc-500">04.05 </strong>Discharge from transplant treatment.
+    <strong class="text-zinc-500">04.05 </strong>Discharge from transplant
+    treatment.
   </li>
 </ul>
 
