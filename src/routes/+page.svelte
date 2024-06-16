@@ -1,7 +1,7 @@
 <svelte:head>
   <title>wesflorence</title>
 </svelte:head>
-<video src="w-loop.mp4" autoplay loop muted playsinline class="w-full h-auto"></video>
+<video src="w-loop.webm" autoplay loop muted playsinline class="w-full h-auto opacity-80"></video>
 <div class="flex flex-col items-center min-h-screen text-center">
   <h1 class="text-4xl font-bold mb-2">Wes Florence</h1>
   <p>Hello. I'm a Software Developer living in Seattle, WA.</p>
