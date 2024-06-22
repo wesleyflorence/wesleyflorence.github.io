@@ -42,122 +42,122 @@ function scrollToResume(): void {
   <div class="container mx-auto px-4 py-8">
     <div class="flex flex-col md:flex-row items-center mb-8">
       <img src="sqr.png" alt="Wes Florence" class="w-48 h-48 rounded-lg shadow-lg md:mb-0 md:mr-8" />
-      <div class="flex flex-col items-center md:items-start text-center md:text-left py-9">
+      <div class="flex flex-col items-center md:items-start text-center md:text-left py-4"> 
         I like to build and learn things. I am concerned with doing things with beauty and purpose, but above all, with doing things at all. I enjoy trying on different ideas and practices. Some recent interests include 3D printing and modeling, cellular biology, and sailing. Professionally, I build data ingestion systems at Nordstrom. Happy to be here.
         <p class="mb-2"></p>
       </div>
     </div>
   </div>
 
-  <div class="container mx-auto px-4">
-    <div class="relative">
-      <h2 class="text-md font-mono mb-8 text-center text-white">Timeline</h2>
-      <div class="border-2 absolute border-opacity-20 border-zinc-700 h-full border z-0" style="left: 49.9%; width: 2px;"></div>
+<div class="container mx-auto px-4">
+  <div class="relative">
+    <h2 class="text-lg font-bold mb-4 text-center text-white">Timeline</h2> 
+    <div class="border-2 absolute border-opacity-20 border-zinc-700 h-full border z-0" style="left: 49.9%; width: 2px;"></div>
 
-      <!-- West Virginia -->
-      <div class="mb-8 flex flex-col md:flex-row items-center w-full text-center md:text-left">
-        <div class="z-20 flex items-center order-1 md:order-2 w-6 h-12 mx-auto bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">✦</h1>
-        </div>
-        <div class="z-10 flex flex-col items-end md:w-6/12 order-1 md:order-1 mt-10">
-          <div class="bg-black rounded-lg shadow-xl px-4 py-2 md:mr-4">
-            <h3 class="font-bold text-white text-lg"><a href="https://en.wikipedia.org/wiki/West_Virginia">West Virginia</a></h3>
-            <p class="text-sm text-zinc-400">Born</p>
-          </div>
-        </div>
-        <div class="md:w-6/12 order-1 md:order-3"></div>
-      </div>
-
-      <!-- West Virginia University -->
-      <div class="mb-8 flex flex-col md:flex-row items-center w-full text-center md:text-left">
-        <div class="md:w-6/12 order-1"></div>
-        <div class="z-20 flex items-center order-1 md:order-2 w-6 h-12 mx-auto bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">✦</h1>
-        </div>
-        <div class="z-10 flex flex-col md:w-6/12 order-1 md:order-3 mt-10">
-          <div class="bg-black rounded-lg shadow-xl px-4 py-2 md:ml-4">
-            <h3 class="font-bold text-white text-lg"><a href="http://catalog.wvu.edu/undergraduate/collegeofbusinessandeconomics/economics/">West Virginia University</a></h3>
-            <p class="text-sm leading-snug tracking-wide text-zinc-300">2013 - 2016</p>
-            <p class="text-sm text-zinc-400">BS Economics, Minor Philosophy</p>
-          </div>
+    <!-- West Virginia -->
+    <div class="mb-4 flex items-center w-full text-right"> 
+      <div class="w-6/12 flex justify-end">
+        <div class="bg-black rounded-lg shadow-xl px-2 py-1 mr-4"> 
+          <h3 class="font-bold text-white text-md"><a href="https://en.wikipedia.org/wiki/West_Virginia">West Virginia</a></h3> 
+          <p class="text-xs text-zinc-400">Born</p> 
         </div>
       </div>
-
-      <!-- The Ohio State University -->
-      <div class="mb-8 flex flex-col md:flex-row items-center w-full text-center md:text-left">
-        <div class="z-20 flex items-center order-1 md:order-2 w-6 h-12 mx-auto bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">✦</h1>
-        </div>
-        <div class="z-10 flex flex-col items-end md:w-6/12 order-1 md:order-1 mt-10">
-          <div class="bg-black rounded-lg shadow-xl px-4 py-2 md:mr-4">
-            <h3 class="font-bold text-white text-lg"><a href="https://moritzlaw.osu.edu/">The Ohio State University</a></h3>
-            <p class="text-sm leading-snug tracking-wide text-zinc-300">2016 - 2017</p>
-            <p class="text-sm text-zinc-400">JD Candidate</p>
-          </div>
-        </div>
-        <div class="md:w-6/12 order-1 md:order-3"></div>
+      <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
       </div>
+      <div class="w-6/12"></div>
+    </div>
 
-      <!-- Northeastern University -->
-      <div class="mb-8 flex flex-col md:flex-row items-center w-full text-center md:text-left">
-        <div class="md:w-6/12 order-1"></div>
-        <div class="z-20 flex items-center order-1 md:order-2 w-6 h-12 mx-auto bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">✦</h1>
-        </div>
-        <div class="z-10 flex flex-col md:w-6/12 order-1 md:order-3 mt-10">
-          <div class="bg-black rounded-lg shadow-xl px-4 py-2 md:ml-4">
-            <h3 class="font-bold text-white text-lg"><a href="https://www.khoury.northeastern.edu/">Northeastern University</a></h3>
-            <p class="text-sm leading-snug tracking-wide text-zinc-300">2018 - 2020</p>
-            <p class="text-sm text-zinc-400">MS Computer Science</p>
-          </div>
-        </div>
+    <!-- West Virginia University -->
+    <div class="mb-4 flex items-center w-full text-left"> 
+      <div class="w-6/12"></div>
+      <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
       </div>
-
-      <!-- Polyverse -->
-      <div class="mb-8 flex flex-col md:flex-row items-center w-full text-center md:text-left">
-        <div class="z-20 flex items-center order-1 md:order-2 w-6 h-12 mx-auto bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">✦</h1>
+      <div class="w-6/12">
+        <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
+          <h3 class="font-bold text-white text-md"><a href="http://catalog.wvu.edu/undergraduate/collegeofbusinessandeconomics/economics/">West Virginia University</a></h3> 
+          <p class="text-xs leading-snug tracking-wide text-zinc-300">2013 - 2016</p> 
+          <p class="text-xs text-zinc-400">BS Economics, Minor Philosophy</p> 
         </div>
-        <div class="z-10 flex flex-col items-end md:w-6/12 order-1 md:order-1 mt-10">
-          <div class="bg-black rounded-lg shadow-xl px-4 py-2 md:mr-4">
-            <h3 class="font-bold text-white text-lg"><a href="https://www.linkedin.com/company/polyversecorp">Polyverse</a></h3>
-            <p class="text-sm leading-snug tracking-wide text-zinc-300">2019</p>
-            <p class="text-sm text-zinc-400">SDE Intern</p>
-          </div>
-        </div>
-        <div class="md:w-6/12 order-1 md:order-3"></div>
-      </div>
-
-      <!-- Nordstrom -->
-      <div class="mb-8 flex flex-col md:flex-row items-center w-full text-center md:text-left">
-        <div class="md:w-6/12 order-1"></div>
-        <div class="z-20 flex items-center order-1 md:order-2 w-6 h-12 mx-auto bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">✦</h1>
-        </div>
-        <div class="z-10 flex flex-col md:w-6/12 order-1 md:order-3 mt-10">
-          <div class="bg-black rounded-lg shadow-xl px-4 py-2 md:ml-4">
-            <h3 class="font-bold text-white text-lg"><a href="https://www.nordstrom.com/">Nordstrom</a></h3>
-            <p class="text-sm leading-snug tracking-wide text-zinc-300">2020 - Present</p>
-            <p class="text-sm text-zinc-400">SDE 2</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Cancer Treatment -->
-      <div class="mb-8 flex flex-col md:flex-row items-center w-full text-center md:text-left">
-        <div class="z-20 flex items-center order-1 md:order-2 w-6 h-12 mx-auto bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-lg">✦</h1>
-        </div>
-        <div class="z-10 flex flex-col items-end md:w-6/12 order-1 md:order-1 mt-10">
-          <div class="bg-black rounded-lg shadow-xl px-4 py-2 md:mr-4">
-            <h3 class="font-bold text-white text-lg"><a href="cancer">Cancer Treatment</a></h3>
-            <p class="text-sm leading-snug tracking-wide text-zinc-300">2023 - 2024</p>
-            <p class="text-sm text-zinc-400">Hodgkin Lymphoma - Remission</p>
-          </div>
-        </div>
-        <div class="md:w-6/12 order-1 md:order-3"></div>
       </div>
     </div>
+
+    <!-- The Ohio State University -->
+    <div class="mb-4 flex items-center w-full text-right"> 
+      <div class="w-6/12 flex justify-end">
+        <div class="bg-black rounded-lg shadow-xl px-2 py-1 mr-4"> 
+          <h3 class="font-bold text-white text-md"><a href="https://moritzlaw.osu.edu/">The Ohio State University</a></h3> 
+          <p class="text-xs leading-snug tracking-wide text-zinc-300">2016 - 2017</p> 
+          <p class="text-xs text-zinc-400">JD Candidate</p> 
+        </div>
+      </div>
+      <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+      </div>
+      <div class="w-6/12"></div>
+    </div>
+
+    <!-- Northeastern University -->
+    <div class="mb-4 flex items-center w-full text-left"> 
+      <div class="w-6/12"></div>
+      <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+      </div>
+      <div class="w-6/12">
+        <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
+          <h3 class="font-bold text-white text-md"><a href="https://www.khoury.northeastern.edu/">Northeastern University</a></h3> 
+          <p class="text-xs leading-snug tracking-wide text-zinc-300">2018 - 2020</p> 
+          <p class="text-xs text-zinc-400">MS Computer Science</p> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Polyverse -->
+    <div class="mb-4 flex items-center w-full text-right"> 
+      <div class="w-6/12 flex justify-end">
+        <div class="bg-black rounded-lg shadow-xl px-2 py-1 mr-4"> 
+          <h3 class="font-bold text-white text-md"><a href="https://www.linkedin.com/company/polyversecorp">Polyverse</a></h3> 
+          <p class="text-xs leading-snug tracking-wide text-zinc-300">2019</p> 
+          <p class="text-xs text-zinc-400">SDE Intern</p> 
+        </div>
+      </div>
+      <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+      </div>
+      <div class="w-6/12"></div>
+    </div>
+
+    <!-- Nordstrom -->
+    <div class="mb-4 flex items-center w-full text-left"> 
+      <div class="w-6/12"></div>
+      <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+      </div>
+      <div class="w-6/12">
+        <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
+          <h3 class="font-bold text-white text-md"><a href="https://www.nordstrom.com/">Nordstrom</a></h3> 
+          <p class="text-xs leading-snug tracking-wide text-zinc-300">2020 - Present</p> 
+          <p class="text-xs text-zinc-400">SDE 2</p> 
+        </div>
+      </div>
+    </div>
+
+    <!-- Cancer Treatment -->
+    <div class="mb-4 flex items-center w-full text-right"> 
+      <div class="w-6/12 flex justify-end">
+        <div class="bg-black rounded-lg shadow-xl px-2 py-1 mr-4"> 
+          <h3 class="font-bold text-white text-md"><a href="cancer">Cancer Treatment</a></h3> 
+          <p class="text-xs leading-snug tracking-wide text-zinc-300">2023 - 2024</p> 
+          <p class="text-xs text-zinc-400">Hodgkin Lymphoma - Remission</p> 
+        </div>
+      </div>
+      <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+      </div>
+      <div class="w-6/12"></div>
+    </div>
   </div>
+</div>
 </div>
 
