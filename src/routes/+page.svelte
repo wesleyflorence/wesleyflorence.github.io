@@ -62,7 +62,7 @@ function scrollToResume(): void {
             <p class="text-xs text-zinc-400">Born</p> 
           </div>
         </div>
-        <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
           <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12"></div>
@@ -71,7 +71,7 @@ function scrollToResume(): void {
       <!-- West Virginia University -->
       <div class="mb-4 flex items-center w-full text-left"> 
         <div class="w-6/12"></div>
-        <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
           <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12">
@@ -92,7 +92,7 @@ function scrollToResume(): void {
             <p class="text-xs text-zinc-400">JD Candidate</p> 
           </div>
         </div>
-        <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
           <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12"></div>
@@ -101,7 +101,7 @@ function scrollToResume(): void {
       <!-- Northeastern University -->
       <div class="mb-4 flex items-center w-full text-left"> 
         <div class="w-6/12"></div>
-        <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
           <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12">
@@ -122,7 +122,7 @@ function scrollToResume(): void {
           <p class="text-xs text-zinc-400">SDE Intern</p> 
         </div>
       </div>
-      <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+      <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
         <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
       </div>
       <div class="w-6/12"></div>
@@ -131,7 +131,7 @@ function scrollToResume(): void {
       <!-- Nordstrom -->
       <div class="mb-4 flex items-center w-full text-left"> 
         <div class="w-6/12"></div>
-        <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
           <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12">
@@ -152,7 +152,7 @@ function scrollToResume(): void {
             <p class="text-xs text-zinc-400">Remission</p> 
           </div>
         </div>
-        <div class="z-20 flex items-center w-4 h-4 bg-black rounded-full">
+        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
           <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12"></div>
