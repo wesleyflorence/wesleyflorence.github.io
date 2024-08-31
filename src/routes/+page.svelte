@@ -15,7 +15,7 @@ function scrollToResume(): void {
 
 <!-- Full-height section -->
 <div class="min-h-screen flex flex-col items-center">
-  <video src="w-loop.webm" autoplay loop muted playsinline class="w-full h-auto"></video>
+  <video src="w-loop.webm" autoplay loop muted playsinline class="w-full max-h-72"></video>
   <div class="flex flex-col items-center text-center">
     <h1 class="text-4xl font-bold mb-2">Wes Florence</h1>
     <p>Software Developer living in Seattle, WA.</p>
@@ -52,7 +52,6 @@ function scrollToResume(): void {
   <div class="container mx-auto px-4">
     <div class="relative">
       <h2 class="text-lg font-bold mb-4 text-center text-white">Timeline</h2> 
-      <div class="border-2 absolute border-opacity-20 border-zinc-700 h-full border z-0" style="left: 49.9%; width: 2px;"></div>
 
       <!-- West Virginia -->
       <div class="mb-4 flex items-center w-full text-right"> 
@@ -63,7 +62,7 @@ function scrollToResume(): void {
           </div>
         </div>
         <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12"></div>
       </div>
@@ -72,7 +71,7 @@ function scrollToResume(): void {
       <div class="mb-4 flex items-center w-full text-left"> 
         <div class="w-6/12"></div>
         <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12">
           <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
@@ -93,7 +92,7 @@ function scrollToResume(): void {
           </div>
         </div>
         <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12"></div>
       </div>
@@ -102,7 +101,7 @@ function scrollToResume(): void {
       <div class="mb-4 flex items-center w-full text-left"> 
         <div class="w-6/12"></div>
         <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12">
           <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
@@ -123,7 +122,7 @@ function scrollToResume(): void {
         </div>
       </div>
       <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-        <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+        <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
       </div>
       <div class="w-6/12"></div>
     </div>
@@ -132,7 +131,7 @@ function scrollToResume(): void {
       <div class="mb-4 flex items-center w-full text-left"> 
         <div class="w-6/12"></div>
         <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12">
           <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
@@ -153,7 +152,7 @@ function scrollToResume(): void {
           </div>
         </div>
         <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-white font-semibold text-sm">✦</h1> 
+          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
         </div>
         <div class="w-6/12"></div>
       </div>
