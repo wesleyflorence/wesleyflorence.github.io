@@ -39,16 +39,6 @@ function scrollToResume(): void {
 
 <!-- Content below the fold -->
 <div id="resume" class="bg-black text-zinc-300">
-  <div class="container mx-auto px-4 py-8">
-    <div class="flex flex-col md:flex-row items-center mb-8">
-      <img src="sqr.png" alt="Wes Florence" class="w-48 h-48 rounded-lg shadow-lg md:mb-0 md:mr-8" />
-      <div class="flex flex-col items-center md:items-start text-left py-4"> 
-        I like to build and learn things. I am concerned with doing things with beauty and purpose, but above all, with doing things at all. I enjoy trying on different ideas and practices. Some recent interests include 3D printing and modeling, cellular biology, and sailing. Professionally, I build data ingestion systems at Nordstrom. Happy to be here.
-        <p class="mb-2"></p>
-      </div>
-    </div>
-  </div>
-
   <div class="container mx-auto px-4">
     <div class="relative">
       <h2 class="text-lg font-bold mb-4 text-center text-white">Timeline</h2> 
