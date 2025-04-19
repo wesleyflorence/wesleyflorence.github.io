@@ -70,7 +70,7 @@
       <li class="font-mono text-sm">
         <a href={book.link} target="_blank"><strong class="hover:text-teal-300">{book.name}</strong></a>
         :: {book.authors}
-        <br /><i class="text-teal-300 mx-7">{book.review || ""}</i>
+        <!-- <br /><i class="text-teal-300 mx-7">{book.review || ""}</i> -->
         <br />
       </li>
     {/each}
