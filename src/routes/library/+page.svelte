@@ -54,7 +54,6 @@
         <a href={book.link} target="_blank"><strong class="hover:text-teal-300">{book.name}</strong></a>
         :: {book.authors}
         <br />
-        <br />
       </li>
     {/each}
   </ul>
