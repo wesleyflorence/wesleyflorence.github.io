@@ -42,13 +42,13 @@ const timeline = [
   <!-- Timeline Grid -->
   <div class="lg:col-span-3">
     <h2 class="text-xs font-medium text-zinc-500 uppercase tracking-widest mb-8">Timeline</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
       {#each timeline as item}
-        <a href={item.href} class="group block p-4 border border-zinc-800 hover:border-zinc-600 transition-colors">
-          <p class="text-xs text-zinc-500 mb-1">{item.period}</p>
-          <h3 class="text-white font-medium group-hover:text-zinc-300">{item.place}</h3>
+        <a href={item.href} class="group block p-3 md:p-4 border border-zinc-800 hover:border-zinc-600 transition-colors">
+          <p class="text-xs text-zinc-500 mb-0.5 md:mb-1">{item.period}</p>
+          <h3 class="text-white text-sm md:text-base font-medium group-hover:text-zinc-300">{item.place}</h3>
           {#if item.detail}
-            <p class="text-sm text-zinc-400 mt-1">{item.detail}</p>
+            <p class="text-xs md:text-sm text-zinc-400 mt-0.5 md:mt-1">{item.detail}</p>
           {/if}
         </a>
       {/each}

@@ -1,4 +1,4 @@
-<header class="border-b border-zinc-800 mt-8 mx-8">
+<header class="mt-8 mx-8">
   <div class="max-w-5xl mx-auto px-6 py-6">
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-4">
       <div class="flex items-center gap-4">
