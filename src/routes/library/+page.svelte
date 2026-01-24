@@ -9,8 +9,8 @@
     link: string;
   }
 
-  let completedBooks: Book[] = [];
-  let readingBooks: Book[] = [];
+  let completedBooks: Book[] = $state([]);
+  let readingBooks: Book[] = $state([]);
 
   onMount(async () => {
     const urls = [

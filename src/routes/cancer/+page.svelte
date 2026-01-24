@@ -1,5 +1,5 @@
 <script lang="ts">
-  let transplantSublist = false; // State to manage visibility of the sublist
+  let transplantSublist = $state(false);
 </script>
 
 <svelte:head>
@@ -9,14 +9,14 @@
 <p class="mb-5 font-mono">A dashboard for tracking health.</p>
 
 <p class="mb-2">
-  As of 04.23.25, I am in remission following treatment for recurrent disease. I am currently 
-  undergoing an allogeneic stem cell transplant with a donor and will need approximately 100 days 
+  As of 04.23.25, I am in remission following treatment for recurrent disease. I am currently
+  undergoing an allogeneic stem cell transplant with a donor and will need approximately 100 days
   for engraftment and 9 months or so for full immune system recovery.
 </p>
 
 <p class="mb-8">
-  I created this dashboard to mindfully keep track of my treatment journey. The timeline below 
-  documents both my initial diagnosis and treatment in 2023-2024, as well as the recurrence 
+  I created this dashboard to mindfully keep track of my treatment journey. The timeline below
+  documents both my initial diagnosis and treatment in 2023-2024, as well as the recurrence
   and subsequent treatment in 2024-2025. Thanks for following along.
 </p>
 
@@ -62,20 +62,20 @@
   >.
 </p>
 <p class="mb-2">
-  Treatment began with ABVD chemotherapy administered through IV due to the risks posed by my heart condition. 
-  Once the tumor shrank, I was able to receive chemo via a port. A PET scan in October revealed that my cancer 
+  Treatment began with ABVD chemotherapy administered through IV due to the risks posed by my heart condition.
+  Once the tumor shrank, I was able to receive chemo via a port. A PET scan in October revealed that my cancer
   was proving resistant to ABVD. I started Pembro-GVD, a combined immunotherapy and chemotherapy in response.
 </p>
 <p class="mb-2">
   A PET scan in December revealed a complete response, meaning the cancerous
-  activity in the tumor decreased dramatically. To address concerns about potential recurrence and 
+  activity in the tumor decreased dramatically. To address concerns about potential recurrence and
   wipe out any remaining cancer cells, I received a stem-cell transplant.
 </p>
 <p class="mb-8">
-  The autologous transplant was completed successfully, and I entered remission in April 2024. 
-  However, a follow-up PET-CT scan on 09.23.24 revealed disease recurrence. 
-  I underwent treatment with Brentuximab + Nivolumab immunotherapy, followed by proton radiation 
-  therapy. After achieving a complete response, I proceeded to an allogeneic (donor) stem cell 
+  The autologous transplant was completed successfully, and I entered remission in April 2024.
+  However, a follow-up PET-CT scan on 09.23.24 revealed disease recurrence.
+  I underwent treatment with Brentuximab + Nivolumab immunotherapy, followed by proton radiation
+  therapy. After achieving a complete response, I proceeded to an allogeneic (donor) stem cell
   transplant in May 2025, which I am currently recovering from.
 </p>
 
@@ -310,7 +310,7 @@
     or suppress my immune system entirely.
     <button
       class="ml-2 align-middle rounded-sm text-xs font-mono px-2 py-0.5 bg-teal-500 text-zinc-900"
-      on:click={() => (transplantSublist = !transplantSublist)}
+      onclick={() => (transplantSublist = !transplantSublist)}
     >
       {transplantSublist ? "Hide Details" : "Show Details"}
     </button>
@@ -454,7 +454,7 @@
 
 <h3 class="text-md font-bold">Disease Recurrence and Second-Line Treatment</h3>
 <h4 class="text-xs font-mono">
-  <a href="https://en.wikipedia.org/wiki/Brentuximab_vedotin" class="hover:text-teal-300">Brentuximab</a> | 
+  <a href="https://en.wikipedia.org/wiki/Brentuximab_vedotin" class="hover:text-teal-300">Brentuximab</a> |
   <a href="https://en.wikipedia.org/wiki/Nivolumab" class="hover:text-teal-300">Nivolumab</a>
 </h4>
 <aside class="italic text-sm text-zinc-300 mb-2">
@@ -502,16 +502,16 @@
 </h3>
 <aside class="italic text-sm text-zinc-300 mb-2">
   <p>
-    Allogeneic transplant uses healthy stem cells from a donor to replace and effectively transplant a new immune system. 
+    Allogeneic transplant uses healthy stem cells from a donor to replace and effectively transplant a new immune system.
     RIC (Reduced-Intensity Conditioning) is a less aggressive pre-transplant treatment.
   </p>
   <p>
-    Unlike my first transplant, this approach focuses less on destroying cancer with high-dose chemotherapy. 
-    Instead, it leverages the <a href="https://en.wikipedia.org/wiki/Graft-versus-tumor_effect" class="text-teal-300">graft-versus-lymphoma effect</a> 
+    Unlike my first transplant, this approach focuses less on destroying cancer with high-dose chemotherapy.
+    Instead, it leverages the <a href="https://en.wikipedia.org/wiki/Graft-versus-tumor_effect" class="text-teal-300">graft-versus-lymphoma effect</a>
     to achieve a more durable remission, given my disease's repeated favorable response to various immune therapies rather than conventional chemotherapy.
   </p>
   <p>
-    I have a "perfect" 12/12 <a href="https://en.wikipedia.org/wiki/Human_leukocyte_antigen" class="text-teal-300">HLA</a> match donor 
+    I have a "perfect" 12/12 <a href="https://en.wikipedia.org/wiki/Human_leukocyte_antigen" class="text-teal-300">HLA</a> match donor
     (who is also a blood type match), though not a sibling.
   </p>
 </aside>

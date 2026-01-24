@@ -1,154 +1,108 @@
 <script lang="ts">
-function scrollToResume(): void {
-  const resumeElement = document.getElementById('resume');
-  if (resumeElement) {
-    resumeElement.scrollIntoView({ behavior: 'smooth' });
-  } else {
-    console.error('Element with ID "resume" not found.');
-  }
+import { onMount } from 'svelte';
+
+interface Book {
+  name: string;
+  authors: string;
+  link: string | null;
 }
+
+let books: Book[] = $state([]);
+let completedBooks: Book[] = $state([]);
+let showAllCompleted = $state(false);
+
+onMount(async () => {
+  try {
+    const [readingRes, completedRes] = await Promise.all([
+      fetch('https://raw.githubusercontent.com/wesleyflorence/library/main/reading_books.json'),
+      fetch('https://raw.githubusercontent.com/wesleyflorence/library/main/completed_books.json')
+    ]);
+    books = await readingRes.json();
+    completedBooks = await completedRes.json();
+  } catch (error) {
+    console.error('Failed to fetch reading list:', error);
+  }
+});
+
+const timeline = [
+  { place: 'West Virginia University', period: '2013 - 2016', detail: 'BS Economics, Minor Philosophy', href: 'http://catalog.wvu.edu/undergraduate/collegeofbusinessandeconomics/economics/' },
+  { place: 'The Ohio State University', period: '2016 - 2017', detail: 'JD Candidate', href: 'https://moritzlaw.osu.edu/' },
+  { place: 'Northeastern University', period: '2018 - 2020', detail: 'MS Computer Science', href: 'https://www.khoury.northeastern.edu/' },
+  { place: 'Polyverse', period: '2019', detail: 'SDE Intern', href: 'https://www.linkedin.com/company/polyversecorp' },
+  { place: 'Nordstrom', period: '2020 - Present', detail: 'SDE 2', href: 'https://www.nordstrom.com/' },
+  { place: 'Cancer Treatment', period: '2023 - 2025', detail: 'Remission', href: '/cancer' },
+];
 </script>
 
 <svelte:head>
   <title>wesflorence</title>
 </svelte:head>
 
-<!-- Full-height section -->
-<div class="min-h-screen flex flex-col items-center">
-  <video src="w-loop.webm" autoplay loop muted playsinline class="w-full max-h-72"></video>
-  <div class="flex flex-col items-center text-center">
-    <h1 class="text-4xl font-bold mb-2">Wes Florence</h1>
-    <p>Software Developer living in Seattle, WA.</p>
-    <div class="text-zinc-400 mt-2">
-      <a href="https://github.com/wesleyflorence" class="hover:text-zinc-50">Github</a>
-      |
-      <a href="https://www.linkedin.com/in/wesflorence" class="hover:text-zinc-50">LinkedIn</a>
-    </div>
-    <!-- Button container with absolute positioning -->
-    <div class="absolute bottom-10 flex justify-center w-full">
-      <button on:click={scrollToResume} class="px-4 py-2 text-white rounded-full bg-zinc-800 hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-500">
-        <span class="flex items-center">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-          </svg>
-        </span>
-      </button>
+<div class="py-8 grid grid-cols-1 lg:grid-cols-4 gap-12">
+  <!-- Timeline Grid -->
+  <div class="lg:col-span-3">
+    <h2 class="text-xs font-medium text-zinc-500 uppercase tracking-widest mb-8">Timeline</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
+      {#each timeline as item}
+        <a href={item.href} class="group block p-3 md:p-4 border border-zinc-800 hover:border-zinc-600 transition-colors">
+          <p class="text-xs text-zinc-500 mb-0.5 md:mb-1">{item.period}</p>
+          <h3 class="text-white text-sm md:text-base font-medium group-hover:text-zinc-300">{item.place}</h3>
+          {#if item.detail}
+            <p class="text-xs md:text-sm text-zinc-400 mt-0.5 md:mt-1">{item.detail}</p>
+          {/if}
+        </a>
+      {/each}
     </div>
   </div>
-</div>
 
-<!-- Content below the fold -->
-<div id="resume" class="bg-black text-zinc-300">
-  <div class="container mx-auto px-4">
-    <div class="relative">
-      <h2 class="text-lg font-bold mb-4 text-center text-white">Timeline</h2> 
-
-      <!-- West Virginia -->
-      <div class="mb-4 flex items-center w-full text-right"> 
-        <div class="w-6/12 flex justify-end">
-          <div class="bg-black rounded-lg shadow-xl px-2 py-1 mr-4"> 
-            <h3 class="font-bold text-white text-md"><a href="https://en.wikipedia.org/wiki/West_Virginia">West Virginia</a></h3> 
-            <p class="text-xs text-zinc-400">Born</p> 
-          </div>
+  <!-- Reading -->
+  <div class="lg:col-span-1 space-y-8">
+    <div>
+      <h2 class="text-xs font-medium text-zinc-500 uppercase tracking-widest mb-4">Reading</h2>
+      {#if books.length > 0}
+        <div class="space-y-3">
+          {#each books as book}
+            <div class="border-l-2 border-zinc-800 pl-4">
+              {#if book.link}
+                <a href={book.link} class="text-white text-sm hover:text-zinc-300">{book.name}</a>
+              {:else}
+                <p class="text-white text-sm">{book.name}</p>
+              {/if}
+              <p class="text-zinc-500 text-xs mt-0.5">{book.authors}</p>
+            </div>
+          {/each}
         </div>
-        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
-        </div>
-        <div class="w-6/12"></div>
-      </div>
-
-      <!-- West Virginia University -->
-      <div class="mb-4 flex items-center w-full text-left"> 
-        <div class="w-6/12"></div>
-        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
-        </div>
-        <div class="w-6/12">
-          <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
-            <h3 class="font-bold text-white text-md"><a href="http://catalog.wvu.edu/undergraduate/collegeofbusinessandeconomics/economics/">West Virginia University</a></h3> 
-            <p class="text-xs leading-snug tracking-wide text-zinc-300">2013 - 2016</p> 
-            <p class="text-xs text-zinc-400">BS Economics, Minor Philosophy</p> 
-          </div>
-        </div>
-      </div>
-
-      <!-- The Ohio State University -->
-      <div class="mb-4 flex items-center w-full text-right"> 
-        <div class="w-6/12 flex justify-end">
-          <div class="bg-black rounded-lg shadow-xl px-2 py-1 mr-4"> 
-            <h3 class="font-bold text-white text-md"><a href="https://moritzlaw.osu.edu/">The Ohio State University</a></h3> 
-            <p class="text-xs leading-snug tracking-wide text-zinc-300">2016 - 2017</p> 
-            <p class="text-xs text-zinc-400">JD Candidate</p> 
-          </div>
-        </div>
-        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
-        </div>
-        <div class="w-6/12"></div>
-      </div>
-
-      <!-- Northeastern University -->
-      <div class="mb-4 flex items-center w-full text-left"> 
-        <div class="w-6/12"></div>
-        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
-        </div>
-        <div class="w-6/12">
-          <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
-            <h3 class="font-bold text-white text-md"><a href="https://www.khoury.northeastern.edu/">Northeastern University</a></h3> 
-            <p class="text-xs leading-snug tracking-wide text-zinc-300">2018 - 2020</p> 
-            <p class="text-xs text-zinc-400">MS Computer Science</p> 
-          </div>
-        </div>
-      </div>
-
-      <!-- Polyverse -->
-      <div class="mb-4 flex items-center w-full text-right"> 
-      <div class="w-6/12 flex justify-end">
-        <div class="bg-black rounded-lg shadow-xl px-2 py-1 mr-4"> 
-          <h3 class="font-bold text-white text-md"><a href="https://www.linkedin.com/company/polyversecorp">Polyverse</a></h3> 
-          <p class="text-xs leading-snug tracking-wide text-zinc-300">2019</p> 
-          <p class="text-xs text-zinc-400">SDE Intern</p> 
-        </div>
-      </div>
-      <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-        <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
-      </div>
-      <div class="w-6/12"></div>
+      {:else}
+        <p class="text-zinc-500 text-sm">Loading...</p>
+      {/if}
     </div>
 
-      <!-- Nordstrom -->
-      <div class="mb-4 flex items-center w-full text-left"> 
-        <div class="w-6/12"></div>
-        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
+    <div>
+      <h2 class="text-xs font-medium text-zinc-500 uppercase tracking-widest mb-4">Completed</h2>
+      {#if completedBooks.length > 0}
+        <div class="space-y-3">
+          {#each showAllCompleted ? completedBooks : completedBooks.slice(0, 5) as book}
+            <div class="border-l-2 border-zinc-800 pl-4">
+              {#if book.link}
+                <a href={book.link} class="text-white text-sm hover:text-zinc-300">{book.name}</a>
+              {:else}
+                <p class="text-white text-sm">{book.name}</p>
+              {/if}
+              <p class="text-zinc-500 text-xs mt-0.5">{book.authors}</p>
+            </div>
+          {/each}
         </div>
-        <div class="w-6/12">
-          <div class="bg-black rounded-lg shadow-xl px-2 py-1 ml-4"> 
-            <h3 class="font-bold text-white text-md"><a href="https://www.nordstrom.com/">Nordstrom</a></h3> 
-            <p class="text-xs leading-snug tracking-wide text-zinc-300">2020 - Present</p> 
-            <p class="text-xs text-zinc-400">SDE 2</p> 
-          </div>
-        </div>
-      </div>
-
-      <!-- Cancer Treatment -->
-      <div class="mb-4 flex items-center w-full text-right"> 
-        <div class="w-6/12 flex justify-end">
-          <div class="bg-black rounded-lg shadow-xl px-2 py-1 mr-4"> 
-            <h3 class="font-bold text-white text-md"><a href="cancer">Cancer Treatment</a></h3> 
-            <p class="text-xs leading-snug tracking-wide text-zinc-300">2023 - 2024</p> 
-            <p class="text-xs text-zinc-400">Remission</p> 
-          </div>
-        </div>
-        <div class="z-20 flex items-center w-4 h-8 bg-black rounded-full">
-          <h1 class="mx-auto text-zinc-600 font-semibold text-sm">✦</h1> 
-        </div>
-        <div class="w-6/12"></div>
-      </div>
+        {#if completedBooks.length > 5}
+          <button
+            onclick={() => showAllCompleted = !showAllCompleted}
+            class="mt-4 text-xs text-zinc-500 hover:text-white transition-colors"
+          >
+            {showAllCompleted ? '− show less' : `+ ${completedBooks.length - 5} more`}
+          </button>
+        {/if}
+      {:else}
+        <p class="text-zinc-500 text-sm">Loading...</p>
+      {/if}
     </div>
   </div>
-  <div class="flex flex-col items-center text-center mt-20 p-10">
-  <a href="https://raw.githubusercontent.com/wesleyflorence/resume/main/wesley_florence_resume.pdf" class="font-mono text-xs hover:text-zinc-50">[+] full resume.pdf</a>
-    </div>
 </div>
