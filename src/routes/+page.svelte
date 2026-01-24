@@ -25,13 +25,12 @@ onMount(async () => {
 });
 
 const timeline = [
-  { place: 'West Virginia', period: 'Born', detail: '', href: 'https://en.wikipedia.org/wiki/West_Virginia' },
   { place: 'West Virginia University', period: '2013 - 2016', detail: 'BS Economics, Minor Philosophy', href: 'http://catalog.wvu.edu/undergraduate/collegeofbusinessandeconomics/economics/' },
   { place: 'The Ohio State University', period: '2016 - 2017', detail: 'JD Candidate', href: 'https://moritzlaw.osu.edu/' },
   { place: 'Northeastern University', period: '2018 - 2020', detail: 'MS Computer Science', href: 'https://www.khoury.northeastern.edu/' },
   { place: 'Polyverse', period: '2019', detail: 'SDE Intern', href: 'https://www.linkedin.com/company/polyversecorp' },
   { place: 'Nordstrom', period: '2020 - Present', detail: 'SDE 2', href: 'https://www.nordstrom.com/' },
-  { place: 'Cancer Treatment', period: '2023 - 2024', detail: 'Remission', href: '/cancer' },
+  { place: 'Cancer Treatment', period: '2023 - 2025', detail: 'Remission', href: '/cancer' },
 ];
 </script>
 
