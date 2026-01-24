@@ -7,6 +7,6 @@
 
 <Header />
 
-<main class="mx-auto max-w-5xl p-8">
+<main class="mx-auto max-w-5xl px-6">
   {@render children()}
 </main>
