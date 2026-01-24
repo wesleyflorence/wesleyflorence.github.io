@@ -1,20 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Global Styles */
 body {
   @apply bg-black;
   @apply text-zinc-200;
-}
-
-/* Blog Header Styling */
-article h2:hover,
-article h3:hover,
-article h4:hover,
-article h5:hover,
-article h6:hover {
-  @apply text-zinc-50;
-  @apply font-bold;
-  cursor: pointer;
 }

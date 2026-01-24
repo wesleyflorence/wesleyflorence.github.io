@@ -7,7 +7,7 @@
     <ul class="p-4 flex flex-col space-y-1">
       {#each ['/', '/cancer', '/research'] as route}
         <li class:active={$page.url.pathname === route} class="hover:text-zinc-200 flex items-center">
-          <span class="mr-2 circle" />
+          <span class="mr-2 circle"></span>
           <a href={route}>{route.slice(1) || "home"}</a>
         </li>
       {/each}
@@ -16,6 +16,8 @@
 </header>
 
 <style>
+  @reference "tailwindcss";
+
   .active {
     @apply text-zinc-200;
   }
